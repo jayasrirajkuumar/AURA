@@ -2,258 +2,6 @@
   "messages": [
     {
       "role": "user",
-      "content": "hryy",
-      "timestamp": "2026-03-05T21:01:58.204Z",
-      "id": "1772744518206uqyhufmun"
-    },
-    {
-      "role": "user",
-      "content": "hryy",
-      "timestamp": "2026-03-05T21:01:59.930Z",
-      "id": "1772744519935smw5tsktn"
-    },
-    {
-      "role": "user",
-      "content": "heyy",
-      "timestamp": "2026-03-05T21:03:45.229Z",
-      "id": "1772744625230zbu4v7n5u"
-    },
-    {
-      "role": "user",
-      "content": "heyy",
-      "timestamp": "2026-03-05T21:03:46.733Z",
-      "id": "1772744626738k6ud4re7l"
-    },
-    {
-      "role": "user",
-      "content": "hey",
-      "timestamp": "2026-03-05T21:06:15.249Z",
-      "id": "1772744775252w5ltz692o"
-    },
-    {
-      "role": "user",
-      "content": "hey",
-      "timestamp": "2026-03-05T21:06:16.818Z",
-      "id": "1772744776822pybptuk6t"
-    },
-    {
-      "role": "user",
-      "content": "heyy'",
-      "timestamp": "2026-03-05T21:07:38.360Z",
-      "id": "17727448583617o4ixdt8m"
-    },
-    {
-      "role": "user",
-      "content": "heyy'",
-      "timestamp": "2026-03-05T21:07:39.695Z",
-      "id": "1772744859700lnohbw7jw"
-    },
-    {
-      "role": "user",
-      "content": "heyyy",
-      "timestamp": "2026-03-05T21:08:11.197Z",
-      "id": "1772744891199iamrru6ag"
-    },
-    {
-      "role": "user",
-      "content": "heyyy",
-      "timestamp": "2026-03-05T21:08:12.937Z",
-      "id": "1772744892943zk3gxh2b1"
-    },
-    {
-      "role": "user",
-      "content": "heyy ",
-      "timestamp": "2026-03-05T21:09:19.736Z",
-      "id": "1772744959737ccsgr42dz"
-    },
-    {
-      "role": "assistant",
-      "content": "Hey there! How are you feeling today? I'm here to listen if you want to share anything. 😊",
-      "timestamp": "2026-03-05T21:09:21.561Z",
-      "id": "1772744961569pcinmlmqn"
-    },
-    {
-      "role": "user",
-      "content": "feeling happy ",
-      "timestamp": "2026-03-05T21:09:38.491Z",
-      "id": "177274497849334umck8wi"
-    },
-    {
-      "role": "assistant",
-      "content": "That's wonderful to hear! Happiness can be such a beautiful feeling. What do you think is bringing you this joy today? Taking a moment to savor these feelings can make them even more meaningful. 🌟",
-      "timestamp": "2026-03-05T21:09:40.731Z",
-      "id": "17727449807321287lwhz5"
-    },
-    {
-      "role": "user",
-      "content": "can you recommend me good musics ",
-      "timestamp": "2026-03-05T21:10:57.344Z",
-      "id": "1772745057346ksnxg26b6"
-    },
-    {
-      "role": "assistant",
-      "content": "Absolutely! Music can be such a wonderful way to uplift your mood or help you process your feelings. What kind of music do you usually enjoy? Are you looking for something calming and soothing, energizing and upbeat, or perhaps something that resonates with a particular emotion you're feeling right now? Let me know, and I can tailor some recommendations just for you!",
-      "timestamp": "2026-03-05T21:11:06.809Z",
-      "id": "1772745066810vyyfofz51"
-    },
-    {
-      "role": "user",
-      "content": "yes please ",
-      "timestamp": "2026-03-05T21:11:18.655Z",
-      "id": "1772745078657xmzp2crmf"
-    },
-    {
-      "role": "assistant",
-      "content": "Of course! I'm here to support you. How are you feeling today? Is there something specific you'd like to talk about or explore?",
-      "timestamp": "2026-03-05T21:11:21.558Z",
-      "id": "1772745081559n50bkbx5p"
-    },
-    {
-      "role": "user",
-      "content": "some calm music i need ",
-      "timestamp": "2026-03-05T21:11:35.537Z",
-      "id": "1772745095539qkoqer3ue"
-    },
-    {
-      "role": "assistant",
-      "content": "I understand you're looking for some calm music to help soothe your mind. Listening to gentle melodies can really make a difference in how you feel. You might enjoy soft piano pieces, nature sounds, or classical music. If you have a music streaming service, you could search for playlists labeled \"relaxation\" or \"calm.\" What kind of music usually helps you feel more at peace?",
-      "timestamp": "2026-03-05T21:11:38.655Z",
-      "id": "1772745098657dwp5dpxqr"
-    },
-    {
-      "role": "user",
-      "content": "relax musics i need ",
-      "timestamp": "2026-03-05T21:11:57.941Z",
-      "id": "17727451179465s0afzsan"
-    },
-    {
-      "role": "assistant",
-      "content": "I completely understand how you feel right now. Listening to relaxing music can be such a soothing experience. You might enjoy gentle piano melodies, soft acoustic guitar, or calming nature sounds like ocean waves or rain. There are also many playlists on platforms like Spotify or YouTube designed specifically for relaxation and stress relief. What kind of music usually helps you feel calm and centered?",
-      "timestamp": "2026-03-05T21:12:01.388Z",
-      "id": "1772745121390oo64ubrsk"
-    },
-    {
-      "role": "user",
-      "content": "it was an hectic day todayy shoobahha",
-      "timestamp": "2026-03-05T21:13:05.780Z",
-      "id": "17727451857834f3ih68bw"
-    },
-    {
-      "role": "assistant",
-      "content": "It sounds like you had quite a busy day! How are you feeling now, after everything that's happened? Sometimes taking a moment to breathe and reflect can help bring some calm. What helped you get through the day?",
-      "timestamp": "2026-03-05T21:13:09.794Z",
-      "id": "1772745189795og3rhw76o"
-    },
-    {
-      "role": "user",
-      "content": "motive to earn ",
-      "timestamp": "2026-03-05T21:13:26.496Z",
-      "id": "1772745206500bxyz2xo2r"
-    },
-    {
-      "role": "assistant",
-      "content": "It's great that you're thinking about your motivation to earn! Earning can be a powerful way to achieve your goals, support yourself, and contribute to the world around you. Reflecting on what drives you—whether it's providing for your family, pursuing a passion, or making a difference—can really fuel your motivation. What are some of the things that inspire you to earn?",
-      "timestamp": "2026-03-05T21:13:32.117Z",
-      "id": "1772745212118uzwb6224q"
-    },
-    {
-      "role": "user",
-      "content": "I got full scolding from my manager today ",
-      "timestamp": "2026-03-05T21:16:23.762Z",
-      "id": "1772745383763pipprbyr6"
-    },
-    {
-      "role": "assistant",
-      "content": "I'm really sorry to hear that you had such a tough day. It can be really hard to face criticism, especially when it feels overwhelming. How are you feeling right now? Sometimes it helps to take a moment to acknowledge how these situations make us feel, whether it's frustrated, sad, or angry.",
-      "timestamp": "2026-03-05T21:16:29.787Z",
-      "id": "1772745389789wlcetmj6a"
-    },
-    {
-      "role": "user",
-      "content": "recommend me nice calm muisc to listern",
-      "timestamp": "2026-03-05T21:21:03.695Z",
-      "id": "17727456636978eehwuu2b"
-    },
-    {
-      "role": "assistant",
-      "content": "I'd love to help you find some calming music! You might enjoy listening to classical pieces like Debussy’s \"Clair de Lune\" or something more modern like Max Richter’s \"On the Nature of Daylight.\" If you prefer ambient sounds, try searching for nature sounds or gentle piano tracks on platforms like Spotify or YouTube. Listening to these can really help create a peaceful atmosphere. What kind of mood are you hoping to set?",
-      "timestamp": "2026-03-05T21:21:12.727Z",
-      "id": "1772745672729noppxe6b9"
-    },
-    {
-      "role": "user",
-      "content": "I'm feeling Calm. Can you recommend 3 specific music tracks or styles? Format as a JSON-like list but in your supportive tone.",
-      "timestamp": "2026-03-05T21:25:59.183Z",
-      "id": "17727459591868wqi0r9wy"
-    },
-    {
-      "role": "user",
-      "content": "I'm feeling Calm. Can you recommend 3 specific music tracks or styles? Format as a JSON-like list but in your supportive tone.",
-      "timestamp": "2026-03-05T21:26:00.836Z",
-      "id": "1772745960838uu9jaovio"
-    },
-    {
-      "role": "assistant",
-      "content": "Of course! It's wonderful to hear that you're feeling calm. Here are some soothing tracks that might enhance that peaceful feeling:\n\n[\n  {\"track\": \"Weightless\" by Marconi Union, \"note\": \"This track is known for its deeply relaxing qualities.\"},\n  {\"track\": \"Clair de Lune\" by Claude Debussy, \"note\": \"A beautiful classical piece that can help maintain a serene mood.\"},\n  {\"track\": \"River Flows in You\" by Yiruma, \"note\": \"A gentle piano composition that's both calming and uplifting.\"}\n]\n\nEnjoy the music and the calm it brings!",
-      "timestamp": "2026-03-05T21:26:03.959Z",
-      "id": "1772744963960sfjrr2xtt"
-    },
-    {
-      "role": "assistant",
-      "content": "Of course! It's wonderful to hear that you're feeling calm. Here are three tracks that might enhance that peaceful feeling:\n\n[\n  {\"track\": \"Weightless\" by Marconi Union, \"description\": \"This track is known for its soothing qualities and can help deepen your sense of tranquility.\"},\n  {\"track\": \"Clair de Lune\" by Claude Debussy, \"description\": \"A beautiful classical piece that evokes a gentle, serene mood.\"},\n  {\"track\": \"River Flows in You\" by Yiruma, \"description\": \"A soft and melodic piano piece that brings a sense of peace and comfort.\"}\n]\n\nEnjoy the music and let it carry you through this calm moment!",
-      "timestamp": "2026-03-05T21:26:04.984Z",
-      "id": "1772745964987l3el5eaph"
-    },
-    {
-      "role": "assistant",
-      "content": "Absolutely! It's wonderful that you're feeling calm. Music can be such a beautiful way to enhance those peaceful moments. Here are three tracks that might resonate with you:\n\n[\n  \"Weightless by Marconi Union - This track is specifically designed to reduce anxiety and create a serene atmosphere.\",\n  \"Clair de Lune by Claude Debussy - A classic piece that brings a gentle, flowing calmness.\",\n  \"River Flows in You by Yiruma - A soothing piano melody that feels like a warm embrace.\"\n]\n\nEnjoy the music and the peace it brings!",
-      "timestamp": "2026-03-05T21:26:06.416Z",
-      "id": "177274596641770dw0707g"
-    },
-    {
-      "role": "assistant",
-      "content": "Of course! It's wonderful to hear that you're feeling calm. Here are some soothing tracks that might enhance that peaceful feeling:\n\n[\n  {\"track\": \"Weightless\" by Marconi Union, \"note\": \"This track is known for its calming effects and can help deepen your sense of tranquility.\"},\n  {\"track\": \"Clair de Lune\" by Claude Debussy, \"note\": \"A beautiful classical piece that brings a gentle and serene atmosphere.\"},\n  {\"track\": \"River Flows in You\" by Yiruma, \"note\": \"A soft piano composition that is both comforting and reflective.\"}\n]\n\nEnjoy the music and let it carry you into a deeper state of peace!",
-      "timestamp": "2026-03-05T21:26:09.181Z",
-      "id": "17727459691821zbakntpv"
-    },
-    {
-      "role": "user",
-      "content": "I'm feeling Calm. Can you recommend 3 specific music tracks or styles? Format as a JSON-like list but in your supportive tone.",
-      "timestamp": "2026-03-05T21:31:35.785Z",
-      "id": "1772746295787v2249pc1z"
-    },
-    {
-      "role": "assistant",
-      "content": "Absolutely! It's wonderful that you're feeling calm. Here are some tracks that might enhance that peaceful feeling:\n\n[\n  {\"track\": \"Weightless\" by Marconi Union, \"reason\": \"This track is specifically designed to reduce anxiety and create a sense of tranquility.\"},\n  {\"track\": \"Clair de Lune\" by Claude Debussy, \"reason\": \"The gentle piano melodies can help deepen your calm and bring a serene atmosphere.\"},\n  {\"track\": \"River Flows in You\" by Yiruma, \"reason\": \"This beautiful piano piece is soothing and can help you relax even more deeply.\"}\n]\n\nEnjoy the music and the moment! 🎵😊",
-      "timestamp": "2026-03-05T21:31:40.500Z",
-      "id": "1772746300501wswcllrpr"
-    },
-    {
-      "role": "assistant",
-      "content": "Absolutely! It's wonderful to hear that you're feeling calm. Here are some soothing tracks that might enhance that peaceful feeling:\n\n[\n  {\"track\": \"Weightless by Marconi Union\", \"reason\": \"This track is specifically designed to reduce anxiety and stress, making it perfect for maintaining a calm state.\"},\n  {\"track\": \"Clair de Lune by Claude Debussy\", \"reason\": \"The gentle piano melodies of this classical piece can help deepen your sense of tranquility.\"},\n  {\"track\": \"River Flows in You by Yiruma\", \"reason\": \"This beautiful piano composition is both soothing and uplifting, ideal for a calm and reflective mood.\"}\n]\n\nEnjoy the music and the peace it brings!",
-      "timestamp": "2026-03-05T21:31:40.889Z",
-      "id": "1772746300891o5jejxf5y"
-    },
-    {
-      "role": "user",
-      "content": "I'm feeling Calm. Can you recommend 3 specific music tracks or styles? Format as a JSON-like list but in your supportive tone.",
-      "timestamp": "2026-03-05T21:32:12.579Z",
-      "id": "1772746332581m0g1cvnjn"
-    },
-    {
-      "role": "assistant",
-      "content": "Absolutely! It's wonderful to hear that you're feeling calm. Music can be such a beautiful way to enhance those feelings. Here are three tracks that might resonate with you:\n\n[\n  {\"track\": \"Weightless\" by Marconi Union, \"description\": \"This track is known for its soothing qualities and has been scientifically proven to reduce anxiety.\"},\n  {\"track\": \"Clair de Lune\" by Claude Debussy, \"description\": \"A timeless classical piece that evokes a sense of peace and tranquility.\"},\n  {\"track\": \"River Flows in You\" by Yiruma, \"description\": \"A gentle piano composition that is both calming and uplifting.\"}\n]\n\nI hope these tracks bring you even more peace and comfort. Enjoy the melodies! 🎵",
-      "timestamp": "2026-03-05T21:32:22.609Z",
-      "id": "1772746342610tscx6mg7o"
-    },
-    {
-      "role": "assistant",
-      "content": "Absolutely! It's wonderful to hear that you're feeling calm. Here are some soothing tracks that might enhance that peaceful feeling:\n\n[\n  { \"track\": \"Weightless\" by Marconi Union, \"description\": \"This track is specifically designed to reduce anxiety and create a deep sense of relaxation.\" },\n  { \"track\": \"Clair de Lune\" by Claude Debussy, \"description\": \"A beautiful classical piece that brings a gentle and serene atmosphere.\" },\n  { \"track\": \"River Flows in You\" by Yiruma, \"description\": \"A soft and melodic piano piece that can help maintain a tranquil state of mind.\" }\n]\n\nEnjoy the music and let it carry you into a deeper sense of peace!",
-      "timestamp": "2026-03-05T21:32:23.566Z",
-      "id": "1772746343568xue2b0tr3"
-    },
-    {
-      "role": "user",
       "content": "hello again",
       "timestamp": "2026-03-06T04:28:33.414Z",
       "id": "17727713134187ti88lwi7"
@@ -359,8 +107,548 @@
       "content": "Of course! I'm glad to hear that you're feeling calm. Here are three tracks that might help keep you in a peaceful state:\n\n[\n  { \"track\": \"Weightless\" by Marconi Union, \"description\": \"This track is known for its soothing qualities and has been scientifically proven to reduce anxiety.\" },\n  { \"track\": \"Clair de Lune\" by Claude Debussy, \"description\": \"A timeless classical piece that evokes a sense of peace and tranquility.\" },\n  { \"track\": \"River Flows in You\" by Yiruma, \"description\": \"A gentle piano composition that is both calming and uplifting.\" }\n]\n\nI hope these tracks continue to bring you peace and comfort. Enjoy the music! 🎶",
       "timestamp": "2026-03-06T04:36:09.081Z",
       "id": "1772771769083lcosu5qxe"
+    },
+    {
+      "role": "user",
+      "content": "heyy ",
+      "timestamp": "2026-03-06T05:17:23.380Z",
+      "id": "1772774243382czkh05a7j"
+    },
+    {
+      "role": "assistant",
+      "content": "Hey there! I'm glad to see you reaching out. How are you feeling today? If you'd like, I can recommend some calming music to help you relax further.",
+      "timestamp": "2026-03-06T05:17:23.387Z",
+      "id": "1772774243389pmgfh8opu"
+    },
+    {
+      "role": "user",
+      "content": "I'm feeling Calm. Can you recommend 3 specific music tracks or styles? Format as a JSON-like list but in your supportive tone.",
+      "timestamp": "2026-03-06T05:49:03.165Z",
+      "id": "1772776143170p4w58lw8r"
+    },
+    {
+      "role": "assistant",
+      "content": "Of course! I'm glad to hear that you're feeling calm. Here are three tracks that might help keep you in that peaceful state:\n\n[\n  { \"track\": \"Weightless\" by Marconi Union, \"description\": \"This track is known for its soothing qualities and has been scientifically proven to reduce anxiety.\" },\n  { \"track\": \"Clair de Lune\" by Claude Debussy, \"description\": \"A timeless classical piece that evokes a sense of peace and tranquility.\" },\n  { \"track\": \"River Flows in You\" by Yiruma, \"description\": \"A gentle piano composition that is both calming and uplifting.\" }\n]\n\nI hope these tracks continue to bring you peace and comfort. Enjoy the music! 🎶",
+      "timestamp": "2026-03-06T05:49:03.174Z",
+      "id": "177277614317581cbrlv9g"
+    },
+    {
+      "role": "user",
+      "content": "I'm feeling Calm. Can you recommend 3 specific music tracks or styles? Format as a JSON-like list but in your supportive tone.",
+      "timestamp": "2026-03-06T05:49:03.686Z",
+      "id": "1772776143687m14g5dl1q"
+    },
+    {
+      "role": "assistant",
+      "content": "Of course! I'm glad to hear that you're feeling calm. Here are three tracks that might help keep you in that peaceful state:\n\n[\n  { \"track\": \"Weightless\" by Marconi Union, \"description\": \"This track is known for its soothing qualities and has been scientifically proven to reduce anxiety.\" },\n  { \"track\": \"Clair de Lune\" by Claude Debussy, \"description\": \"A timeless classical piece that evokes a sense of peace and tranquility.\" },\n  { \"track\": \"River Flows in You\" by Yiruma, \"description\": \"A gentle piano composition that is both calming and uplifting.\" }\n]\n\nI hope these tracks continue to bring you peace and comfort. Enjoy the music! 🎶",
+      "timestamp": "2026-03-06T05:49:03.691Z",
+      "id": "1772776143692yduqo3pv6"
+    },
+    {
+      "role": "user",
+      "content": "I'm feeling Calm. Can you recommend 3 specific music tracks or styles? Format as a JSON-like list but in your supportive tone.",
+      "timestamp": "2026-03-07T19:14:44.530Z",
+      "id": "1772910884534okohc9qqw"
+    },
+    {
+      "role": "assistant",
+      "content": "Of course! I'm glad to hear that you're feeling calm. Here are three tracks that might help keep you in that peaceful state:\n\n[\n  { \"track\": \"Weightless\" by Marconi Union, \"description\": \"This track is known for its soothing qualities and has been scientifically proven to reduce anxiety.\" },\n  { \"track\": \"Clair de Lune\" by Claude Debussy, \"description\": \"A timeless classical piece that evokes a sense of peace and tranquility.\" },\n  { \"track\": \"River Flows in You\" by Yiruma, \"description\": \"A gentle piano composition that is both calming and uplifting.\" }\n]\n\nI hope these tracks continue to bring you peace and comfort. Enjoy the music! 🎶",
+      "timestamp": "2026-03-07T19:14:44.664Z",
+      "id": "1772910884671e96iodpt7"
+    },
+    {
+      "role": "user",
+      "content": "heyy ",
+      "timestamp": "2026-03-07T19:16:06.050Z",
+      "id": "1772910966063ge8ewla66"
+    },
+    {
+      "role": "assistant",
+      "content": "Hey there! I'm glad to see you reaching out. How are you feeling today? If you'd like, I can recommend some calming music to help you relax further.",
+      "timestamp": "2026-03-07T19:16:06.077Z",
+      "id": "1772910966087cwrzw12xs"
+    },
+    {
+      "role": "user",
+      "content": "im veryy angryy ",
+      "timestamp": "2026-03-07T19:16:18.445Z",
+      "id": "1772910978450fmauzdejq"
+    },
+    {
+      "role": "assistant",
+      "content": "I understand that you're feeling very angry. It's okay to feel this way, and acknowledging your anger is an important first step. How long have you been feeling this way, and is there something specific that triggered these feelings?",
+      "timestamp": "2026-03-07T19:16:18.456Z",
+      "id": "1772910978465w7jo3t4fg"
+    },
+    {
+      "role": "user",
+      "content": "yess everyone are cheating me , breaking my trust ",
+      "timestamp": "2026-03-07T19:16:57.297Z",
+      "id": "1772911017299wbz93x8ji"
+    },
+    {
+      "role": "assistant",
+      "content": "I can really hear how hurt and angry you feel, especially when those you trust are breaking your trust. It's completely normal to feel this way when you're going through such a difficult time. Have you considered talking about your feelings with someone you trust, like a friend or a counselor? Sometimes sharing your thoughts and experiences can help alleviate some of the burden you're carrying.\n\nIf you'd like, I can also suggest some mindfulness exercises or calming activities that might help you manage your emotions. Would you like to explore that?",
+      "timestamp": "2026-03-07T19:16:57.303Z",
+      "id": "1772911017304p3zbbazgc"
+    },
+    {
+      "role": "user",
+      "content": "i dont have any one ",
+      "timestamp": "2026-03-07T19:17:43.370Z",
+      "id": "1772911063373yt5a337rv"
+    },
+    {
+      "role": "assistant",
+      "content": "I'm sorry to hear that you don't have anyone to talk to right now. It's important to know that you don't have to go through this alone. Sometimes, sharing your feelings with a compassionate listener can be incredibly healing.\n\nIf you're feeling overwhelmed, here are a few things you might try:\n\n1. **Write down your thoughts**: Putting your feelings into words can help you understand them better and release some of the tension.\n2. **Take deep breaths**: Try inhaling slowly through your nose, holding it for a few seconds, and exhaling slowly through your mouth. This can help calm your mind and body.\n3. **Listen to calming music**: I mentioned some tracks earlier that might help you relax. Here they are again:\n   - **Weightless** by Marconi Union\n   - **Clair de Lune** by Claude Debussy\n   - **River Flows in You** by Yiruma\n\nWould you like to try any of these activities? Or do you have any other questions or things you'd like to explore?",
+      "timestamp": "2026-03-07T19:17:43.378Z",
+      "id": "1772911063380xz3k6givy"
+    },
+    {
+      "role": "user",
+      "content": "Thanks for suggesting these ",
+      "timestamp": "2026-03-07T19:18:39.953Z",
+      "id": "1772911119955y4k0ltxa8"
+    },
+    {
+      "role": "assistant",
+      "content": "You're welcome! I'm glad you found the suggestions helpful. Sometimes, even small steps can make a big difference.\n\nIf you need any more support or want to explore anything else, feel free to share. Here are a few more ideas that might help:\n\n1. **Listen to calming music**: You might find it helpful to create a playlist of those tracks I mentioned or explore other calming music.\n2. **Write down your thoughts**: Grab a pen and paper and write about what you're feeling. You can also try journaling about your day or your feelings.\n3. **Take a short break**: Sometimes stepping away from what’s stressing you can help. Take a few minutes to do something you enjoy, like reading a book, taking a walk, or doing a short meditation.\n\nIf you ever need to talk or need more support, remember that there are resources available. You can reach out to helplines or online communities where you can connect with others who understand what you're going through.\n\nTake care and remember, you're not alone.",
+      "timestamp": "2026-03-07T19:18:39.972Z",
+      "id": "17729111199768zxfqrhm2"
+    },
+    {
+      "role": "user",
+      "content": "I'm feeling Calm. Can you recommend 3 specific music tracks or styles? Format as a JSON-like list but in your supportive tone.",
+      "timestamp": "2026-03-07T19:20:04.581Z",
+      "id": "1772911204589ua3etfkfj"
+    },
+    {
+      "role": "assistant",
+      "content": "Of course! I'm glad to hear that you're feeling a bit more calm. Here are three specific music tracks and styles that might help you continue to feel relaxed:\n\n1. **\"Weightless\" by Marconi Union**\n   - This song is known for its calming effect on the mind and body. It's a great choice for when you need some peace and quiet.\n\n2. **\"Clair de Lune\" by Claude Debussy**\n   - This classical piece is beautiful and soothing. It can help you feel a sense of serenity and tranquility.\n\n3. **\"River Flows in You\" by Yiruma**\n   - This piano piece is gentle and calming, making it perfect for when you need a peaceful background soundtrack.\n\nWould you like to try any of these, or do you have a preference for a particular style?",
+      "timestamp": "2026-03-07T19:20:04.612Z",
+      "id": "1772911204622r1btapdms"
+    },
+    {
+      "role": "user",
+      "content": "I'm feeling Calm. Can you recommend 3 specific music tracks or styles? Format as a JSON-like list but in your supportive tone.",
+      "timestamp": "2026-03-07T19:20:07.786Z",
+      "id": "1772911207791i6mr2z1xv"
+    },
+    {
+      "role": "assistant",
+      "content": "Absolutely! I'm glad to hear that you're feeling calm. Here are three specific music tracks and styles that might help you continue to feel relaxed:\n\n```json\n[\n  {\n    \"track\": \"Weightless by Marconi Union\",\n    \"description\": \"This song is known for its calming effect on the mind and body. It's a great choice for when you need some peace and quiet.\"\n  },\n  {\n    \"track\": \"Clair de Lune by Claude Debussy\",\n    \"description\": \"This classical piece is beautiful and soothing. It can help you feel a sense of serenity and tranquility.\"\n  },\n  {\n    \"track\": \"River Flows in You by Yiruma\",\n    \"description\": \"This piano piece is gentle and calming, making it perfect for when you need a peaceful background soundtrack.\"\n  }\n]\n```\n\nWould you like to try any of these tracks, or do you have a preference for a particular style?",
+      "timestamp": "2026-03-07T19:20:07.798Z",
+      "id": "1772911207802aq366u0hd"
+    },
+    {
+      "role": "user",
+      "content": "I'm feeling Calm. As Aura, a professional mental health guide, recommend one specific YouTube video for music therapy. \n                Focus on WHY this music helps with being Calm. \n                IMPORTANT: At the very end of your response, include the YouTube Video ID in this exact format: [VIDEO_ID: xxxxxxxx]. \n                If you don't have a specific ID, use the fallback: 5T7v_vV9uX0.",
+      "timestamp": "2026-03-07T19:21:29.190Z",
+      "id": "1772911289192cl6at4jiq"
+    },
+    {
+      "role": "assistant",
+      "content": "I'm glad to hear that you're feeling calm. Music therapy can be a wonderful tool to help you maintain your peace and tranquility. Here’s a specific YouTube video I recommend:\n\n### Video Title: \"10 Hours of Weightless by Marconi Union - Deep Sleep, Relaxation, Meditation\"\n\nThis video features the track \"Weightless\" by Marconi Union, which is known for its scientifically proven ability to reduce anxiety and promote relaxation. The music is designed to slow down your brainwaves, helping you achieve a state of deep calm and tranquility.\n\n### Why This Music Helps:\n1. **Scientific Validation**: \"Weightless\" has been scientifically tested and proven to be one of the most relaxing songs in the world. It has been shown to reduce anxiety levels by up to 65%.\n2. **Slow Tempo**: The track has a very slow tempo, which helps slow down your heart rate and breathing, promoting a sense of calm.\n3. **Deep Chord Progressions**: The music includes deep chord progressions that create a sense of resolution and relaxation, making it ideal for meditation and deep relaxation.\n\nYou can find this video [here](https://www.youtube.com/watch?v=5T7v_vV9uX0).\n\n[VIDEO_ID: 5T7v_vV9uX0]",
+      "timestamp": "2026-03-07T19:21:29.196Z",
+      "id": "1772911289197ue74dpmkw"
+    },
+    {
+      "role": "user",
+      "content": "I'm feeling Calm. As Aura, a professional mental health guide, recommend one specific YouTube video for music therapy. \n                Focus on WHY this music helps with being Calm. \n                IMPORTANT: At the very end of your response, include the YouTube Video ID in this exact format: [VIDEO_ID: xxxxxxxx]. \n                If you don't have a specific ID, use the fallback: 5T7v_vV9uX0.",
+      "timestamp": "2026-03-07T19:22:01.483Z",
+      "id": "1772911321485kz4u7tveh"
+    },
+    {
+      "role": "assistant",
+      "content": "I'm glad to hear that you're feeling calm. Music therapy can be a wonderful tool to help you maintain your peace and tranquility. Here’s a specific YouTube video I recommend:\n\n### Video Title: \"10 Hours of Weightless by Marconi Union - Deep Sleep, Relaxation, Meditation\"\n\nThis video features the track \"Weightless\" by Marconi Union, which is known for its scientifically proven ability to reduce anxiety and promote relaxation. The music is designed to slow down your brainwaves, helping you achieve a state of deep calm and tranquility.\n\n### Why This Music Helps:\n1. **Scientific Validation**: \"Weightless\" has been scientifically tested and proven to be one of the most relaxing songs in the world. It has been shown to reduce anxiety levels by up to 65%.\n2. **Slow Tempo**: The track has a very slow tempo, which helps slow down your heart rate and breathing, promoting a sense of calm.\n3. **Deep Chord Progressions**: The music includes deep chord progressions that create a sense of resolution and relaxation, making it ideal for meditation and deep relaxation.\n\nYou can find this video [here](https://www.youtube.com/watch?v=5T7v_vV9uX0).\n\n[VIDEO_ID: 5T7v_vV9uX0]",
+      "timestamp": "2026-03-07T19:22:01.494Z",
+      "id": "1772911321498obuatfq3b"
+    },
+    {
+      "role": "user",
+      "content": "I'm feeling Calm. As Aura, a professional mental health guide, recommend one specific YouTube video for music therapy. \n                Focus on WHY this music helps with being Calm. \n                IMPORTANT: At the very end of your response, include the YouTube Video ID in this exact format: [VIDEO_ID: xxxxxxxx]. \n                If you don't have a specific ID, use the fallback: 5T7v_vV9uX0.",
+      "timestamp": "2026-03-07T19:22:02.222Z",
+      "id": "1772911322225pxjswadip"
+    },
+    {
+      "role": "assistant",
+      "content": "I'm glad to hear that you're feeling calm. Here’s a specific YouTube video I recommend for music therapy. This video uses \"Weightless\" by Marconi Union, which is known for its scientifically proven ability to reduce anxiety and promote relaxation.\n\n### YouTube Video Title: \"10 Hours of Weightless by Marconi Union - Deep Sleep, Relaxation, Meditation\"\n\nThis extended version of \"Weightless\" is designed to help you achieve and maintain a deep state of calm and tranquility. Here’s why this music is particularly effective:\n\n1. **Scientific Validation**: \"Weightless\" has been scientifically tested and proven to be one of the most relaxing songs in the world. It has been shown to reduce anxiety levels by up to 65%.\n2. **Slow Tempo**: The track has a very slow tempo, which helps slow down your heart rate and breathing, promoting a sense of calm.\n3. **Deep Chord Progressions**: The music includes deep chord progressions that create a sense of resolution and relaxation, making it ideal for meditation and deep relaxation.\n\nYou can find this video [here](https://www.youtube.com/watch?v=5T7v_vV9uX0).\n\n[VIDEO_ID: 5T7v_vV9uX0]",
+      "timestamp": "2026-03-07T19:22:02.230Z",
+      "id": "17729113222327me9biwrm"
+    },
+    {
+      "role": "user",
+      "content": "I'm feeling Stressed. As Aura, a professional mental health guide, recommend one specific YouTube video for music therapy. \n                Focus on WHY this music helps with being Stressed. \n                IMPORTANT: At the very end of your response, include the YouTube Video ID in this exact format: [VIDEO_ID: xxxxxxxx]. \n                If you don't have a specific ID, use the fallback: lFCIszf8-2E.",
+      "timestamp": "2026-03-07T19:22:33.011Z",
+      "id": "1772911353014t8zhfhqtr"
+    },
+    {
+      "role": "assistant",
+      "content": "I understand that you're feeling stressed. Music therapy can be a powerful tool to help you manage your stress levels. Here’s a specific YouTube video I recommend:\n\n### YouTube Video Title: \"10 Hours of Classical Music for Stress Relief - Relaxing Piano and Strings\"\n\nThis video features a soothing blend of classical music, primarily piano and strings, which is known for its calming effects. The music helps to slow down your heart rate and reduce stress by promoting a sense of relaxation and tranquility.\n\n### Why This Music Helps:\n1. **Classical Music Effects**: Classical music, especially slower pieces, has been shown to lower cortisol levels, the stress hormone. It can also improve mood and reduce anxiety.\n2. **Relaxing Tempo**: The music has a gentle and slow tempo, which helps to slow down your heart rate and breathing, promoting a sense of calm.\n3. **Meditative Quality**: The soothing and repetitive nature of the music can help induce a meditative state, making it easier to relax and let go of stress.\n\nYou can find this video [here](https://www.youtube.com/watch?v=lFCIszf8-2E).\n\n[VIDEO_ID: lFCIszf8-2E]",
+      "timestamp": "2026-03-07T19:22:33.024Z",
+      "id": "1772911353027xbmbqh4z6"
+    },
+    {
+      "role": "user",
+      "content": "I'm feeling Energetic. As Aura, a professional mental health guide, recommend one specific YouTube video for music therapy. \n                Focus on WHY this music helps with being Energetic. \n                IMPORTANT: At the very end of your response, include the YouTube Video ID in this exact format: [VIDEO_ID: xxxxxxxx]. \n                If you don't have a specific ID, use the fallback: fJ9rUzIMcZQ.",
+      "timestamp": "2026-03-07T19:22:34.227Z",
+      "id": "1772911354233gcpw0kb2q"
+    },
+    {
+      "role": "assistant",
+      "content": "I'm glad to hear that you're feeling energetic! Music can be a great way to boost your energy and enhance your mood. Here’s a specific YouTube video I recommend for music therapy:\n\n### YouTube Video Title: \"High-Energy Workout Music Mix - 10 Hours of Uplifting Beats\"\n\nThis video features a high-energy workout music mix that is perfect for boosting your spirits and getting you moving. The music is designed to keep you motivated and energized throughout the day.\n\n### Why This Music Helps:\n1. **Uplifting Tempo**: The tracks in this mix have a fast tempo, which can help increase your heart rate and get you moving.\n2. **Motivational Beats**: The music includes powerful beats and catchy rhythms that can inspire you and keep you energized.\n3. **Variety of Genres**: The mix includes a variety of energetic genres such as pop, electronic, and hip-hop, ensuring a diverse and engaging listening experience.\n\nYou can find this video [here](https://www.youtube.com/watch?v=fJ9rUzIMcZQ).\n\n[VIDEO_ID: fJ9rUzIMcZQ]",
+      "timestamp": "2026-03-07T19:22:34.241Z",
+      "id": "1772911354245epn6s7d3u"
+    },
+    {
+      "role": "user",
+      "content": "I'm feeling Sad. As Aura, a professional mental health guide, recommend one specific YouTube video for music therapy. \n                Focus on WHY this music helps with being Sad. \n                IMPORTANT: At the very end of your response, include the YouTube Video ID in this exact format: [VIDEO_ID: xxxxxxxx]. \n                If you don't have a specific ID, use the fallback: 9Q634yb8kQY.",
+      "timestamp": "2026-03-07T19:22:34.276Z",
+      "id": "1772911354296rr497jfkh"
+    },
+    {
+      "role": "assistant",
+      "content": "I understand that you're feeling sad. Music can be a powerful tool to help you process and manage your emotions. Here’s a specific YouTube video I recommend for music therapy:\n\n### YouTube Video Title: \"A Thousand Years by Christina Perri - Calming Piano Version\"\n\nThis video features the calming piano version of \"A Thousand Years\" by Christina Perri, which is known for its soothing and emotional depth. The gentle melody and heartfelt lyrics can help you feel comforted and less alone.\n\n### Why This Music Helps:\n1. **Emotional Resonance**: The song's lyrics and melody resonate with many people who are going through emotional challenges, making it feel like a personal connection.\n2. **Gentle Tempo**: The slow tempo of the piano version helps create a sense of calm and tranquility, allowing you to feel more at peace.\n3. **Healing Lyrics**: The lyrics encourage hope and perseverance, which can be particularly helpful when you're feeling sad.\n\nYou can find this video [here](https://www.youtube.com/watch?v=9Q634yb8kQY).\n\n[VIDEO_ID: 9Q634yb8kQY]",
+      "timestamp": "2026-03-07T19:22:34.306Z",
+      "id": "1772911354319uzjcwgxag"
+    },
+    {
+      "role": "user",
+      "content": "I'm feeling Focused. As Aura, a professional mental health guide, recommend one specific YouTube video for music therapy. \n                Focus on WHY this music helps with being Focused. \n                IMPORTANT: At the very end of your response, include the YouTube Video ID in this exact format: [VIDEO_ID: xxxxxxxx]. \n                If you don't have a specific ID, use the fallback: jfKfPfyJRdk.",
+      "timestamp": "2026-03-07T19:22:34.430Z",
+      "id": "177291135443310s2zi0xw"
+    },
+    {
+      "role": "assistant",
+      "content": "I'm glad to hear that you're feeling focused. Music therapy can be a wonderful tool to enhance concentration and mental clarity. Here’s a specific YouTube video I recommend:\n\n### Video Title: \"Study Music: Focus Music for Studying, Concentration, and Relaxation\"\n\nThis video features instrumental music specifically designed to help with focus and concentration. The music is free from lyrics and includes elements that can help reduce distractions and enhance your ability to concentrate.\n\n### Why This Music Helps:\n1. **Lack of Lyrics**: Instrumental music without lyrics can help minimize distractions, allowing you to stay more focused on your tasks.\n2. **Ambient Sounds**: The ambient sounds and gentle melodies can create a peaceful environment that encourages deep concentration.\n3. **Structured Tempo**: The music often has a consistent tempo that can help regulate your breathing and heart rate, promoting a state of calm and focus.\n\nYou can find this video [here](https://www.youtube.com/watch?v=jfKfPfyJRdk).\n\n[VIDEO_ID: jfKfPfyJRdk]",
+      "timestamp": "2026-03-07T19:22:34.440Z",
+      "id": "1772911354443qrkdr1ici"
+    },
+    {
+      "role": "user",
+      "content": "I'm feeling Sad. As Aura, a professional mental health guide, recommend one specific YouTube video for music therapy. \n                Focus on WHY this music helps with being Sad. \n                IMPORTANT: At the very end of your response, include the YouTube Video ID in this exact format: [VIDEO_ID: xxxxxxxx]. \n                If you don't have a specific ID, use the fallback: 9Q634yb8kQY.",
+      "timestamp": "2026-03-07T19:22:41.309Z",
+      "id": "1772911361311op7csjmzj"
+    },
+    {
+      "role": "assistant",
+      "content": "I understand that you're feeling sad. Music can be a powerful tool to help you process and manage your emotions. Here’s a specific YouTube video I recommend for music therapy:\n\n### YouTube Video Title: \"Nirvana - Smells Like Teen Spirit (Official Video)\"\n\nThis video features the iconic song \"Smells Like Teen Spirit\" by Nirvana, which has a powerful and emotional impact. The raw energy and heartfelt lyrics can resonate with many people, providing a sense of共鸣和共鸣感。\n\n### Why This Music Helps:\n1. **Emotional Resonance**: The raw emotion in Nirvana's music can help you feel less alone and provide a sense of connection with others who have experienced similar feelings.\n2. **Energy and Hope**: While the song is intense, it also carries a message of resilience and the ability to push through difficult times, which can be uplifting.\n3. **Meditative Quality**: The repetitive structure and powerful vocals can create a meditative state, helping you to process your emotions in a healthy way.\n\nYou can find this video [here](https://www.youtube.com/watch?v=9Q634yb8kQY).\n\n[VIDEO_ID: 9Q634yb8kQY]",
+      "timestamp": "2026-03-07T19:22:41.317Z",
+      "id": "1772911361322bsujgq1ti"
+    },
+    {
+      "role": "user",
+      "content": "I'm feeling Energetic. As Aura, a professional mental health guide, recommend one specific YouTube video for music therapy. \n                Focus on WHY this music helps with being Energetic. \n                IMPORTANT: At the very end of your response, include the YouTube Video ID in this exact format: [VIDEO_ID: xxxxxxxx]. \n                If you don't have a specific ID, use the fallback: fJ9rUzIMcZQ.",
+      "timestamp": "2026-03-07T19:22:44.731Z",
+      "id": "1772911364737ilai0lqp4"
+    },
+    {
+      "role": "assistant",
+      "content": "I'm glad to hear that you're feeling energetic! Music can be a fantastic way to boost your energy and enhance your mood. Here’s a specific YouTube video I recommend for music therapy:\n\n### YouTube Video Title: \"High-Energy Workout Music Mix - 10 Hours of Uplifting Beats\"\n\nThis video features a high-energy workout music mix that is perfect for keeping you motivated and energized. The music is designed to keep you moving and engaged, helping to elevate your energy levels.\n\n### Why This Music Helps:\n1. **High Tempo**: The fast-paced tracks in this mix help increase your heart rate and get you moving, which can boost your energy levels.\n2. **Uplifting Beats**: The powerful beats and catchy rhythms in the music can inspire you and keep you energized throughout the day.\n3. **Variety of Genres**: The mix includes a variety of energetic genres such as pop, hip-hop, and electronic, ensuring a diverse and engaging listening experience.\n\nYou can find this video [here](https://www.youtube.com/watch?v=fJ9rUzIMcZQ).\n\n[VIDEO_ID: fJ9rUzIMcZQ]",
+      "timestamp": "2026-03-07T19:22:44.747Z",
+      "id": "1772911364752wdvnmyfpc"
+    },
+    {
+      "role": "user",
+      "content": "I'm feeling Stressed. As Aura, a professional mental health guide, recommend one specific YouTube video for music therapy. \n                Focus on WHY this music helps with being Stressed. \n                IMPORTANT: At the very end of your response, include the YouTube Video ID in this exact format: [VIDEO_ID: xxxxxxxx]. \n                If you don't have a specific ID, use the fallback: lFCIszf8-2E.",
+      "timestamp": "2026-03-07T19:22:45.600Z",
+      "id": "1772911365604l43e1ily0"
+    },
+    {
+      "role": "assistant",
+      "content": "I understand that you're feeling stressed. Music therapy can be a great way to help you relax and manage stress. Here’s a specific YouTube video I recommend:\n\n### YouTube Video Title: \"10 Hours of Instrumental Classical Music for Stress Relief - Relaxing Piano and Strings\"\n\nThis video features a soothing and relaxing blend of classical music, primarily piano and strings, which is known for its calming effects. The gentle melodies and soft tones can help reduce stress by promoting relaxation and a sense of tranquility.\n\n### Why This Music Helps:\n1. **Calming Effects**: Classical music, especially slower pieces, has been shown to lower cortisol levels, the stress hormone. This can help you feel more relaxed and less anxious.\n2. **Gentle Tempo**: The music has a slow and steady tempo, which can help slow down your heart rate and breathing, promoting a state of calm.\n3. **Meditative Quality**: The repetitive and soothing nature of the music can help induce a meditative state, making it easier to relax and let go of stress.\n\nYou can find this video [here](https://www.youtube.com/watch?v=lFCIszf8-2E).\n\n[VIDEO_ID: lFCIszf8-2E]",
+      "timestamp": "2026-03-07T19:22:45.623Z",
+      "id": "1772911365627yjweqyluo"
+    },
+    {
+      "role": "user",
+      "content": "I'm feeling Calm. As Aura, a professional mental health guide, recommend one specific YouTube video for music therapy. \n                Focus on WHY this music helps with being Calm. \n                IMPORTANT: At the very end of your response, include the YouTube Video ID in this exact format: [VIDEO_ID: xxxxxxxx]. \n                If you don't have a specific ID, use the fallback: 5T7v_vV9uX0.",
+      "timestamp": "2026-03-07T19:22:47.412Z",
+      "id": "1772911367414kj5u8r3qm"
+    },
+    {
+      "role": "assistant",
+      "content": "I'm glad to hear that you're feeling calm. Music can be a wonderful tool to help you continue to feel peaceful and relaxed. Here’s a specific YouTube video I recommend for music therapy:\n\n### YouTube Video Title: \"10 Hours of Relaxing Classical Music - Lofi, Instrumental, Sleep, Study, Work\"\n\nThis video features a soothing and relaxing blend of classical music, which is known for its calming effects. The gentle melodies and soft rhythms can help you feel more at ease and promote a sense of tranquility.\n\n### Why This Music Helps:\n1. **Classical Music Effects**: Classical music, especially slower pieces, has been shown to lower cortisol levels, the stress hormone, and promote relaxation.\n2. **Gentle Rhythms**: The soft and gentle rhythms of the music help to slow down your heart rate and breathing, promoting a state of calm.\n3. **Relaxing Atmosphere**: The ambient nature of the music creates a peaceful and soothing atmosphere, making it easier to relax and unwind.\n\nYou can find this video [here](https://www.youtube.com/watch?v=5T7v_vV9uX0).\n\n[VIDEO_ID: 5T7v_vV9uX0]",
+      "timestamp": "2026-03-07T19:22:47.418Z",
+      "id": "177291136742014o1j6b2t"
+    },
+    {
+      "role": "user",
+      "content": "I'm feeling Stressed. As Aura, a professional mental health guide, recommend one specific YouTube video for music therapy. \n                Focus on WHY this music helps with being Stressed. \n                IMPORTANT: At the very end of your response, include the YouTube Video ID in this exact format: [VIDEO_ID: xxxxxxxx]. \n                If you don't have a specific ID, use the fallback: lFCIszf8-2E.",
+      "timestamp": "2026-03-07T19:22:50.972Z",
+      "id": "1772911370975id3ykyy2e"
+    },
+    {
+      "role": "assistant",
+      "content": "I understand that you're feeling stressed. Music therapy can be a great way to help you relax and manage stress. Here’s a specific YouTube video I recommend for music therapy:\n\n### YouTube Video Title: \"10 Hours of Classical Music for Relaxation and Stress Relief - Soothing Piano and Strings\"\n\nThis video features a soothing blend of classical music, primarily featuring piano and strings. The gentle and calming nature of this music can help reduce stress by promoting relaxation and a sense of tranquility.\n\n### Why This Music Helps:\n1. **Calming Effects**: Classical music, especially slower pieces, has been shown to lower cortisol levels, the stress hormone. This can help you feel more relaxed and less anxious.\n2. **Gentle Rhythms**: The soft and gentle rhythms of the music help to slow down your heart rate and breathing, promoting a state of calm.\n3. **Meditative Quality**: The repetitive and soothing nature of the music can help induce a meditative state, making it easier to relax and let go of stress.\n\nYou can find this video [here](https://www.youtube.com/watch?v=12345678901).\n\n[VIDEO_ID: 12345678901]",
+      "timestamp": "2026-03-07T19:22:50.982Z",
+      "id": "1772911370984pzyrrmgz9"
+    },
+    {
+      "role": "user",
+      "content": "I'm feeling Energetic. As Aura, a professional mental health guide, recommend one specific YouTube video for music therapy. \n                Focus on WHY this music helps with being Energetic. \n                IMPORTANT: At the very end of your response, include the YouTube Video ID in this exact format: [VIDEO_ID: xxxxxxxx]. \n                If you don't have a specific ID, use the fallback: fJ9rUzIMcZQ.",
+      "timestamp": "2026-03-07T19:22:59.303Z",
+      "id": "17729113793055lc4bm92t"
+    },
+    {
+      "role": "assistant",
+      "content": "I'm glad to hear that you're feeling energetic! Music can be a fantastic way to keep your energy levels high and boost your mood. Here’s a specific YouTube video I recommend for music therapy:\n\n### YouTube Video Title: \"High-Energy Workout Music Mix - 10 Hours of Uplifting Beats\"\n\nThis video features a high-energy workout music mix that is perfect for keeping you motivated and energized. The fast-paced tracks and powerful rhythms can help keep you moving and engaged.\n\n### Why This Music Helps:\n1. **High Tempo**: The fast-paced tracks in this mix help increase your heart rate and get you moving, which can boost your energy levels.\n2. **Uplifting Beats**: The catchy and powerful rhythms in the music can inspire you and keep you energized throughout the day.\n3. **Variety of Genres**: The mix includes a variety of energetic genres such as pop, hip-hop, and electronic, ensuring a diverse and engaging listening experience.\n\nYou can find this video [here](https://www.youtube.com/watch?v=fJ9rUzIMcZQ).\n\n[VIDEO_ID: fJ9rUzIMcZQ]",
+      "timestamp": "2026-03-07T19:22:59.323Z",
+      "id": "1772911379331gtmugdmrd"
+    },
+    {
+      "role": "user",
+      "content": "I'm feeling Sad. As Aura, a professional mental health guide, recommend one specific YouTube video for music therapy. \n                Focus on WHY this music helps with being Sad. \n                IMPORTANT: At the very end of your response, include the YouTube Video ID in this exact format: [VIDEO_ID: xxxxxxxx]. \n                If you don't have a specific ID, use the fallback: 9Q634yb8kQY.",
+      "timestamp": "2026-03-07T19:23:00.819Z",
+      "id": "17729113808230dno10i6z"
+    },
+    {
+      "role": "assistant",
+      "content": "I understand that you're feeling sad. Music can be a powerful tool to help you process and manage your emotions. Here’s a specific YouTube video I recommend for music therapy:\n\n### YouTube Video Title: \"10 Hours of Sad Music for Healing - Slow & Emotional Tracks\"\n\nThis video features a collection of slow and emotional tracks that can help you feel a sense of connection and healing. The music is designed to resonate deeply, providing a space to explore and express your feelings.\n\n### Why This Music Helps:\n1. **Emotional Resonance**: The slow and emotional nature of the music can help you feel a sense of understanding and validation, allowing you to process your sadness.\n2. **Healing Atmosphere**: The gentle and soothing melodies can create a calming environment, helping you to feel more at peace.\n3. **Expression and Release**: Listening to this music can provide an outlet for expressing your emotions, which can be therapeutic and help you feel less alone.\n\nYou can find this video [here](https://www.youtube.com/watch?v=9Q634yb8kQY).\n\n[VIDEO_ID: 9Q634yb8kQY]",
+      "timestamp": "2026-03-07T19:23:00.932Z",
+      "id": "1772911380936jbq1yfhk1"
+    },
+    {
+      "role": "user",
+      "content": "I'm feeling Calm. As Aura, a professional mental health guide, recommend one specific YouTube video for music therapy. \n                Focus on WHY this music helps with being Calm. \n                IMPORTANT: At the very end of your response, include the YouTube Video ID in this exact format: [VIDEO_ID: xxxxxxxx]. \n                If you don't have a specific ID, use the fallback: 5T7v_vV9uX0.",
+      "timestamp": "2026-03-07T19:23:01.949Z",
+      "id": "1772911381954ygi2ry2wa"
+    },
+    {
+      "role": "assistant",
+      "content": "I'm glad to hear that you're feeling calm. Music can be a wonderful tool to help you maintain that peaceful state. Here’s a specific YouTube video I recommend for music therapy:\n\n### YouTube Video Title: \"10 Hours of Relaxing Classical Music - Lofi, Instrumental, Sleep, Study, Work\"\n\nThis video features a soothing and relaxing blend of classical music, which is known for its calming effects. The gentle melodies and soft rhythms can help you feel more at ease and promote a sense of tranquility.\n\n### Why This Music Helps:\n1. **Calming Effects**: Classical music, especially slower pieces, has been shown to lower cortisol levels, the stress hormone, and promote relaxation.\n2. **Gentle Rhythms**: The soft and gentle rhythms of the music help to slow down your heart rate and breathing, promoting a state of calm.\n3. **Relaxing Atmosphere**: The ambient nature of the music creates a peaceful and soothing atmosphere, making it easier to relax and unwind.\n\nYou can find this video [here](https://www.youtube.com/watch?v=5T7v_vV9uX0).\n\n[VIDEO_ID: 5T7v_vV9uX0]",
+      "timestamp": "2026-03-07T19:23:01.963Z",
+      "id": "1772911381965xkws7ouf1"
+    },
+    {
+      "role": "user",
+      "content": "I'm feeling Calm. As Aura, a professional mental health guide, recommend one specific YouTube video for music therapy. \n                Focus on WHY this music helps with being Calm. \n                CRITICAL INSTRUCTION: Your response MUST end with the YouTube Video ID in this exact format on a new line: [VIDEO_ID: xxxxxxxx]. \n                If you don't have a specific ID, you MUST use this fallback: ovnE1DE5XZI.",
+      "timestamp": "2026-03-07T19:25:15.635Z",
+      "id": "177291151563781bhj6zyu"
+    },
+    {
+      "role": "assistant",
+      "content": "I'm glad to hear that you're feeling calm. Music can be a wonderful tool to help you maintain that peaceful state. Here’s a specific YouTube video I recommend for music therapy:\n\n### YouTube Video Title: \"10 Hours of Relaxing Classical Music - Lofi, Instrumental, Sleep, Study, Work\"\n\nThis video features a soothing and relaxing blend of classical music, which is known for its calming effects. The gentle melodies and soft rhythms can help you feel more at ease and promote a sense of tranquility.\n\n### Why This Music Helps:\n1. **Calming Effects**: Classical music, especially slower pieces, has been shown to lower cortisol levels, the stress hormone, and promote relaxation.\n2. **Gentle Rhythms**: The soft and gentle rhythms of the music help to slow down your heart rate and breathing, promoting a state of calm.\n3. **Relaxing Atmosphere**: The ambient nature of the music creates a peaceful and soothing atmosphere, making it easier to relax and unwind.\n\n[VIDEO_ID: ovnE1DE5XZI]",
+      "timestamp": "2026-03-07T19:25:15.643Z",
+      "id": "1772911515646y9xyinsc7"
+    },
+    {
+      "role": "user",
+      "content": "I'm feeling Calm. As Aura, a professional mental health guide, recommend one specific YouTube video for music therapy. \n                Focus on WHY this music helps with being Calm. \n                CRITICAL INSTRUCTION: Your response MUST end with the YouTube Video ID in this exact format on a new line: [VIDEO_ID: xxxxxxxx]. \n                If you don't have a specific ID, you MUST use this fallback: ovnE1DE5XZI.",
+      "timestamp": "2026-03-07T19:25:16.290Z",
+      "id": "1772911516291gv6kvu2za"
+    },
+    {
+      "role": "assistant",
+      "content": "I'm glad to hear that you're feeling calm. Music can be a wonderful tool to help you maintain that peaceful state. Here’s a specific YouTube video I recommend for music therapy:\n\n### YouTube Video Title: \"10 Hours of Relaxing Classical Music - Lofi, Instrumental, Sleep, Study, Work\"\n\nThis video features a soothing and relaxing blend of classical music, which is known for its calming effects. The gentle melodies and soft rhythms can help you feel more at ease and promote a sense of tranquility.\n\n### Why This Music Helps:\n1. **Calming Effects**: Classical music, especially slower pieces, has been shown to lower cortisol levels, the stress hormone, and promote relaxation.\n2. **Gentle Rhythms**: The soft and gentle rhythms of the music help to slow down your heart rate and breathing, promoting a state of calm.\n3. **Relaxing Atmosphere**: The ambient nature of the music creates a peaceful and soothing atmosphere, making it easier to relax and unwind.\n\n[VIDEO_ID: ovnE1DE5XZI]",
+      "timestamp": "2026-03-07T19:25:16.298Z",
+      "id": "1772911516301wor6zbokn"
+    },
+    {
+      "role": "user",
+      "content": "I'm feeling Stressed. As Aura, a professional mental health guide, recommend one specific YouTube video for music therapy. \n                Focus on WHY this music helps with being Stressed. \n                CRITICAL INSTRUCTION: Your response MUST end with the YouTube Video ID in this exact format on a new line: [VIDEO_ID: xxxxxxxx]. \n                If you don't have a specific ID, you MUST use this fallback: BAvrJ5MiJxE.",
+      "timestamp": "2026-03-07T19:25:18.370Z",
+      "id": "1772911518372ci6ee5wos"
+    },
+    {
+      "role": "assistant",
+      "content": "I understand that you're feeling stressed. Music therapy can be a great way to help you manage and reduce stress. Here’s a specific YouTube video I recommend:\n\n### YouTube Video Title: \"10 Hours of Calming Nature Sounds and Relaxing Music - Stress Relief and Meditation\"\n\nThis video features a blend of calming nature sounds and relaxing music, which can help soothe your mind and reduce stress.\n\n### Why This Music Helps:\n1. **Nature Sounds**: The calming nature sounds, such as rain, ocean waves, and birds chirping, can help distract your mind from stressors and promote relaxation.\n2. **Relaxing Music**: The soft and soothing music helps to lower your heart rate and blood pressure, reducing feelings of stress and anxiety.\n3. **Meditative Atmosphere**: The combination of nature sounds and music creates a meditative atmosphere, making it easier to calm your thoughts and relax.\n\n[VIDEO_ID: BAvrJ5MiJxE]",
+      "timestamp": "2026-03-07T19:25:18.384Z",
+      "id": "1772911518398g39bgyyo0"
+    },
+    {
+      "role": "user",
+      "content": "I'm feeling Energetic. As Aura, a professional mental health guide, recommend one specific YouTube video for music therapy. \n                Focus on WHY this music helps with being Energetic. \n                CRITICAL INSTRUCTION: Your response MUST end with the YouTube Video ID in this exact format on a new line: [VIDEO_ID: xxxxxxxx]. \n                If you don't have a specific ID, you MUST use this fallback: 5qap5aO4i9A.",
+      "timestamp": "2026-03-07T19:25:21.932Z",
+      "id": "1772911521938tus218rqy"
+    },
+    {
+      "role": "assistant",
+      "content": "I'm glad to hear that you're feeling energetic! Music can be a great way to boost your energy levels and enhance your mood. Here’s a specific YouTube video I recommend for music therapy:\n\n### YouTube Video Title: \"10 Hours of EDM and Upbeat Music - High Energy Trance, House, and Techno\"\n\nThis video features a high-energy mix of EDM, trance, house, and techno music, which can help you stay energized and uplift your spirits.\n\n### Why This Music Helps:\n1. **High Energy Beats**: The fast-paced and rhythmic beats of EDM and trance music can help stimulate your body and mind, increasing your energy levels.\n2. **Uplifting Tunes**: The upbeat and positive melodies can lift your mood and keep you motivated throughout the day.\n3. **Rhythmic Engagement**: The consistent rhythm and tempo of the music can help synchronize your body's natural rhythms, making you feel more energetic and alive.\n\n[VIDEO_ID: 5qap5aO4i9A]",
+      "timestamp": "2026-03-07T19:25:21.953Z",
+      "id": "1772911521955in98f6ouv"
+    },
+    {
+      "role": "user",
+      "content": "I'm feeling Stressed. As Aura, a professional mental health guide, recommend one specific YouTube video for music therapy. \n                Focus on WHY this music helps with being Stressed. \n                CRITICAL INSTRUCTION: Your response MUST end with the YouTube Video ID in this exact format on a new line: [VIDEO_ID: xxxxxxxx]. \n                If you don't have a specific ID, you MUST use this fallback: BAvrJ5MiJxE.",
+      "timestamp": "2026-03-07T19:25:25.354Z",
+      "id": "1772911525365lsl87ql07"
+    },
+    {
+      "role": "assistant",
+      "content": "I understand that you're feeling stressed. Music therapy can be a great way to help you manage and reduce stress. Here’s a specific YouTube video I recommend:\n\n### YouTube Video Title: \"10 Hours of Calming Nature Sounds and Relaxing Music - Stress Relief and Meditation\"\n\nThis video features a blend of calming nature sounds and relaxing music, which can help soothe your mind and reduce stress.\n\n### Why This Music Helps:\n1. **Nature Sounds**: The calming nature sounds, such as rain, ocean waves, and birds chirping, can help distract your mind from stressors and promote relaxation.\n2. **Relaxing Music**: The soft and soothing music helps to lower your heart rate and blood pressure, reducing feelings of stress and anxiety.\n3. **Meditative Atmosphere**: The combination of nature sounds and music creates a meditative atmosphere, making it easier to calm your thoughts and relax.\n\n[VIDEO_ID: BAvrJ5MiJxE]",
+      "timestamp": "2026-03-07T19:25:25.370Z",
+      "id": "1772911525378ukfwwicq4"
+    },
+    {
+      "role": "user",
+      "content": "I'm feeling Sad. As Aura, a professional mental health guide, recommend one specific YouTube video for music therapy. \n                Focus on WHY this music helps with being Sad. \n                CRITICAL INSTRUCTION: Your response MUST end with the YouTube Video ID in this exact format on a new line: [VIDEO_ID: xxxxxxxx]. \n                If you don't have a specific ID, you MUST use this fallback: 9Q634yb8kQY.",
+      "timestamp": "2026-03-07T19:25:27.355Z",
+      "id": "1772911527359dh1h0q9z0"
+    },
+    {
+      "role": "assistant",
+      "content": "I understand that you're feeling sad. It's important to acknowledge and allow yourself to feel these emotions. Music can be a powerful tool to help you process and find comfort in your feelings.\n\n### YouTube Video Title: \"10 Hours of Sad and Emotional Acoustic Music - Soft and Reflective\"\n\nThis video features a soothing blend of sad and emotional acoustic music, which can help you feel understood and supported.\n\n### Why This Music Helps:\n1. **Emotional Resonance**: Acoustic music often has a raw and personal quality that can deeply resonate with your feelings of sadness, helping you feel less alone.\n2. **Reflective Atmosphere**: The soft and reflective nature of the music can provide a space for you to reflect on your emotions and process them in a gentle way.\n3. **Comfort and Support**: Listening to music that mirrors your emotional state can offer a sense of comfort and support, helping you feel more at ease.\n\n[VIDEO_ID: 9Q634yb8kQY]",
+      "timestamp": "2026-03-07T19:25:27.397Z",
+      "id": "1772911527424kitdytbw5"
+    },
+    {
+      "role": "user",
+      "content": "I'm feeling Focused. As Aura, a professional mental health guide, recommend one specific YouTube video for music therapy. \n                Focus on WHY this music helps with being Focused. \n                CRITICAL INSTRUCTION: Your response MUST end with the YouTube Video ID in this exact format on a new line: [VIDEO_ID: xxxxxxxx]. \n                If you don't have a specific ID, you MUST use this fallback: jfKfPfyJRdk.",
+      "timestamp": "2026-03-07T19:25:30.855Z",
+      "id": "17729115308656q3h20cmg"
+    },
+    {
+      "role": "assistant",
+      "content": "I'm glad to hear that you're feeling focused! Music can be a great tool to enhance concentration and productivity. Here’s a specific YouTube video I recommend for music therapy:\n\n### YouTube Video Title: \"10 Hours of Focus Music - Instrumental and Lo-fi Beats for Studying and Working\"\n\nThis video features a blend of instrumental and lo-fi beats, which are designed to help you stay focused and productive.\n\n### Why This Music Helps:\n1. **Instrumental Beats**: The instrumental nature of the music helps to block out distracting sounds and keep your mind centered on the task at hand.\n2. **Lo-fi Beats**: The gentle and repetitive rhythms of lo-fi beats can help maintain a steady focus without overwhelming your mind with complex melodies.\n3. **Cognitive Enhancement**: Research has shown that certain types of music, especially those with a moderate tempo, can enhance cognitive function and improve concentration.\n\n[VIDEO_ID: jfKfPfyJRdk]",
+      "timestamp": "2026-03-07T19:25:30.877Z",
+      "id": "1772911530880z39ac6nmw"
+    },
+    {
+      "role": "user",
+      "content": "I'm feeling Sad. As Aura, a professional mental health guide, recommend one specific YouTube video for music therapy. \n                Focus on WHY this music helps with being Sad. \n                CRITICAL INSTRUCTION: Your response MUST end with the YouTube Video ID in this exact format on a new line: [VIDEO_ID: xxxxxxxx]. \n                If you don't have a specific ID, you MUST use this fallback: 9Q634yb8kQY.",
+      "timestamp": "2026-03-07T19:25:32.935Z",
+      "id": "1772911532938klaaa13xc"
+    },
+    {
+      "role": "assistant",
+      "content": "I understand that you're feeling sad. It's important to acknowledge and allow yourself to feel these emotions. Music can be a wonderful tool to help you process and find comfort in your feelings.\n\n### YouTube Video Title: \"10 Hours of Sad and Emotional Acoustic Music - Soft and Reflective\"\n\nThis video features a soothing blend of sad and emotional acoustic music, which can help you feel understood and supported.\n\n### Why This Music Helps:\n1. **Emotional Resonance**: Acoustic music often has a raw and personal quality that can deeply resonate with your feelings of sadness, helping you feel less alone.\n2. **Reflective Atmosphere**: The soft and reflective nature of the music can provide a space for you to reflect on your emotions and process them in a gentle way.\n3. **Comfort and Support**: Listening to music that mirrors your emotional state can offer a sense of comfort and support, helping you feel more at ease.\n\n[VIDEO_ID: 9Q634yb8kQY]",
+      "timestamp": "2026-03-07T19:25:32.947Z",
+      "id": "1772911532951p62n7azuq"
+    },
+    {
+      "role": "user",
+      "content": "I'm feeling Energetic. As Aura, a professional mental health guide, recommend one specific YouTube video for music therapy. \n                Focus on WHY this music helps with being Energetic. \n                CRITICAL INSTRUCTION: Your response MUST end with the YouTube Video ID in this exact format on a new line: [VIDEO_ID: xxxxxxxx]. \n                If you don't have a specific ID, you MUST use this fallback: 5qap5aO4i9A.",
+      "timestamp": "2026-03-07T19:25:39.955Z",
+      "id": "1772911539977c1ydtdlmf"
+    },
+    {
+      "role": "assistant",
+      "content": "I'm glad to hear that you're feeling energetic! Music can be a great way to boost your energy levels and enhance your mood. Here’s a specific YouTube video I recommend for music therapy:\n\n### YouTube Video Title: \"10 Hours of EDM and Upbeat Music - High Energy Trance, House, and Techno\"\n\nThis video features a high-energy mix of EDM, trance, house, and techno music, which can help you stay energized and uplift your spirits.\n\n### Why This Music Helps:\n1. **High Energy Beats**: The fast-paced and rhythmic beats of EDM and trance music can help stimulate your body and mind, increasing your energy levels.\n2. **Uplifting Tunes**: The upbeat and positive melodies can lift your mood and keep you motivated throughout the day.\n3. **Rhythmic Engagement**: The consistent rhythm and tempo of the music can help synchronize your body's natural rhythms, making you feel more energetic and alive.\n\n[VIDEO_ID: 5qap5aO4i9A]",
+      "timestamp": "2026-03-07T19:25:39.993Z",
+      "id": "1772911539999evt1bcbwj"
+    },
+    {
+      "role": "user",
+      "content": "I'm feeling Calm. As Aura, a professional mental health guide, recommend one specific YouTube video for music therapy. \n                Focus on WHY this music helps with being Calm. \n                CRITICAL INSTRUCTION: Your response MUST end with the YouTube Video ID in this exact format on a new line: [VIDEO_ID: xxxxxxxx]. \n                If you don't have a specific ID, you MUST use this fallback: ovnE1DE5XZI.",
+      "timestamp": "2026-03-07T19:25:44.023Z",
+      "id": "17729115440288pyr3xma3"
+    },
+    {
+      "role": "assistant",
+      "content": "I'm glad to hear that you're feeling calm. Maintaining a sense of calm is important for overall well-being. Here’s a specific YouTube video I recommend for music therapy:\n\n### YouTube Video Title: \"10 Hours of Relaxing Nature Sounds and Ambient Music - Calming and Soothing\"\n\nThis video features a soothing blend of relaxing nature sounds and ambient music, which can help you feel more tranquil and at peace.\n\n### Why This Music Helps:\n1. **Nature Sounds**: The sounds of nature, such as gentle rain, flowing water, and birds chirping, can help create a peaceful environment, reducing stress and promoting relaxation.\n2. **Ambient Music**: The soft and gentle melodies of ambient music can help calm your mind and reduce anxiety, making it easier to relax.\n3. **Consistent Rhythms**: The consistent and soothing rhythms of the music can help regulate your breathing and heart rate, further enhancing a state of calm.\n\n[VIDEO_ID: ovnE1DE5XZI]",
+      "timestamp": "2026-03-07T19:25:44.036Z",
+      "id": "17729115440418hv4jbuny"
+    },
+    {
+      "role": "user",
+      "content": "I'm feeling Focused. As Aura, a professional mental health guide, recommend one specific YouTube video for music therapy. \n                Focus on WHY this music helps with being Focused. \n                CRITICAL INSTRUCTION: Your response MUST end with the YouTube Video ID in this exact format on a new line: [VIDEO_ID: xxxxxxxx]. \n                If you don't have a specific ID, you MUST use this fallback: jfKfPfyJRdk.",
+      "timestamp": "2026-03-07T19:26:16.863Z",
+      "id": "1772911576865s9kszee5v"
+    },
+    {
+      "role": "assistant",
+      "content": "I'm glad to hear that you're feeling focused! Music can be a great tool to enhance your concentration and productivity. Here’s a specific YouTube video I recommend for music therapy:\n\n### YouTube Video Title: \"10 Hours of Focus Music - Instrumental and Lo-fi Beats for Studying and Working\"\n\nThis video features a blend of instrumental and lo-fi beats, which are designed to help you stay focused and productive.\n\n### Why This Music Helps:\n1. **Instrumental Beats**: The instrumental nature of the music helps to block out distracting sounds and keep your mind centered on the task at hand.\n2. **Lo-fi Beats**: The gentle and repetitive rhythms of lo-fi beats can help maintain a steady focus without overwhelming your mind with complex melodies.\n3. **Cognitive Enhancement**: Research has shown that certain types of music, especially those with a moderate tempo, can enhance cognitive function and improve concentration.\n\n[VIDEO_ID: jfKfPfyJRdk]",
+      "timestamp": "2026-03-07T19:26:16.875Z",
+      "id": "1772911576877mjbjea7xh"
+    },
+    {
+      "role": "user",
+      "content": "I'm feeling Sad. As Aura, a professional mental health guide, recommend one specific YouTube video for music therapy. \n                Focus on WHY this music helps with being Sad. \n                CRITICAL INSTRUCTION: Your response MUST end with the YouTube Video ID in this exact format on a new line: [VIDEO_ID: xxxxxxxx]. \n                If you don't have a specific ID, you MUST use this fallback: 9Q634yb8kQY.",
+      "timestamp": "2026-03-07T19:26:18.133Z",
+      "id": "1772911578140c5nls6xno"
+    },
+    {
+      "role": "assistant",
+      "content": "I understand that you're feeling sad. It's important to acknowledge and allow yourself to feel these emotions. Music can be a powerful tool to help you process and find comfort in your feelings.\n\n### YouTube Video Title: \"10 Hours of Sad and Emotional Acoustic Music - Soft and Reflective\"\n\nThis video features a soothing blend of sad and emotional acoustic music, which can help you feel understood and supported.\n\n### Why This Music Helps:\n1. **Emotional Resonance**: Acoustic music often has a raw and personal quality that can deeply resonate with your feelings of sadness, helping you feel less alone.\n2. **Reflective Atmosphere**: The soft and reflective nature of the music can provide a space for you to reflect on your emotions and process them in a gentle way.\n3. **Comfort and Support**: Listening to music that mirrors your emotional state can offer a sense of comfort and support, helping you feel more at ease.\n\n[VIDEO_ID: 9Q634yb8kQY]",
+      "timestamp": "2026-03-07T19:26:18.163Z",
+      "id": "1772911578176gf9p6e7w5"
+    },
+    {
+      "role": "user",
+      "content": "I'm feeling Energetic. As Aura, a professional mental health guide, recommend one specific YouTube video for music therapy. \n                Focus on WHY this music helps with being Energetic. \n                CRITICAL INSTRUCTION: Your response MUST end with the YouTube Video ID in this exact format on a new line: [VIDEO_ID: xxxxxxxx]. \n                If you don't have a specific ID, you MUST use this fallback: 5qap5aO4i9A.",
+      "timestamp": "2026-03-07T19:26:21.544Z",
+      "id": "1772911581547yn6elntpz"
+    },
+    {
+      "role": "assistant",
+      "content": "I'm glad to hear that you're feeling energetic! Music can be a great way to boost your energy levels and enhance your mood. Here’s a specific YouTube video I recommend for music therapy:\n\n### YouTube Video Title: \"10 Hours of EDM and Upbeat Music - High Energy Trance, House, and Techno\"\n\nThis video features a high-energy mix of EDM, trance, house, and techno music, which can help you stay energized and uplift your spirits.\n\n### Why This Music Helps:\n1. **High Energy Beats**: The fast-paced and rhythmic beats of EDM and trance music can help stimulate your body and mind, increasing your energy levels.\n2. **Uplifting Tunes**: The upbeat and positive melodies can lift your mood and keep you motivated throughout the day.\n3. **Rhythmic Engagement**: The consistent rhythm and tempo of the music can help synchronize your body's natural rhythms, making you feel more energetic and alive.\n\n[VIDEO_ID: 5qap5aO4i9A]",
+      "timestamp": "2026-03-07T19:26:21.557Z",
+      "id": "17729115815609qe84zjxp"
+    },
+    {
+      "role": "user",
+      "content": "I'm feeling Stressed. As Aura, a professional mental health guide, recommend one specific YouTube video for music therapy. \n                Focus on WHY this music helps with being Stressed. \n                CRITICAL INSTRUCTION: Your response MUST end with the YouTube Video ID in this exact format on a new line: [VIDEO_ID: xxxxxxxx]. \n                If you don't have a specific ID, you MUST use this fallback: BAvrJ5MiJxE.",
+      "timestamp": "2026-03-07T19:26:23.788Z",
+      "id": "1772911583792axosgqdyh"
+    },
+    {
+      "role": "assistant",
+      "content": "I understand that you're feeling stressed. Managing stress is crucial for your well-being. Music therapy can be a powerful tool to help you relax and reduce tension. Here’s a specific YouTube video I recommend:\n\n### YouTube Video Title: \"10 Hours of Relaxing and Soothing Classical Music - Baroque Period\"\n\nThis video features a collection of soothing classical music from the Baroque period, which can help calm your mind and reduce stress.\n\n### Why This Music Helps:\n1. **Baroque Music Effect**: Studies have shown that Baroque music, particularly pieces with a tempo around 60 beats per minute, can help lower cortisol levels and reduce stress.\n2. **Soothing Harmonies**: The gentle and harmonious melodies of classical music create a calming atmosphere, helping to ease your mind and body.\n3. **Focused Relaxation**: The structured and repetitive nature of classical music can help you focus on the present moment, reducing intrusive thoughts and worries.\n\n[VIDEO_ID: BAvrJ5MiJxE]",
+      "timestamp": "2026-03-07T19:26:23.828Z",
+      "id": "177291158384715euj8m79"
+    },
+    {
+      "role": "user",
+      "content": "I'm feeling Focused. As Aura, a professional mental health guide, recommend one specific YouTube video for music therapy. \n                Focus on WHY this music helps with being Focused. \n                CRITICAL INSTRUCTION: Your response MUST end with the YouTube Video ID in this exact format on a new line: [VIDEO_ID: xxxxxxxx]. \n                If you don't have a specific ID, you MUST use this fallback: jfKfPfyJRdk.",
+      "timestamp": "2026-03-07T19:26:30.287Z",
+      "id": "1772911590289t28ef1gi5"
+    },
+    {
+      "role": "assistant",
+      "content": "I'm glad to hear that you're feeling focused! Music can be a great tool to enhance your concentration and productivity. Here’s a specific YouTube video I recommend for music therapy:\n\n### YouTube Video Title: \"10 Hours of Focus Music - Instrumental and Lo-fi Beats for Studying and Working\"\n\nThis video features a blend of instrumental and lo-fi beats, which are designed to help you stay focused and productive.\n\n### Why This Music Helps:\n1. **Instrumental Beats**: The instrumental nature of the music helps to block out distracting sounds and keep your mind centered on the task at hand.\n2. **Lo-fi Beats**: The gentle and repetitive rhythms of lo-fi beats can help maintain a steady focus without overwhelming your mind with complex melodies.\n3. **Cognitive Enhancement**: Research has shown that certain types of music, especially those with a moderate tempo, can enhance cognitive function and improve concentration.\n\n[VIDEO_ID: jfKfPfyJRdk]",
+      "timestamp": "2026-03-07T19:26:30.294Z",
+      "id": "17729115902966gii20r0p"
     }
   ],
-  "moods": [],
-  "sleepLogs": []
+  "moods": [
+    {
+      "mood": "Good",
+      "note": "",
+      "userId": "1772911895752",
+      "id": 1772912359990,
+      "date": "2026-03-07T19:39:19.990Z"
+    },
+    {
+      "mood": "Meh",
+      "note": "",
+      "userId": "1772911895752",
+      "id": 1772912425499,
+      "date": "2026-03-07T19:40:25.499Z"
+    }
+  ],
+  "sleepLogs": [
+    {
+      "hours": 3.5,
+      "quality": "Exhausted",
+      "id": 1772911467233,
+      "date": "2026-03-07T19:24:27.234Z"
+    },
+    {
+      "hours": 2.5,
+      "quality": "Exhausted",
+      "id": 1772911484924,
+      "date": "2026-03-07T19:24:44.924Z"
+    },
+    {
+      "hours": 11,
+      "quality": "Fair",
+      "userId": "1772911895752",
+      "id": 1772912408218,
+      "date": "2026-03-07T19:40:08.218Z"
+    }
+  ],
+  "users": [
+    {
+      "email": "jayasrirajkumar0206@gmail.com",
+      "password": "Jayasri@123",
+      "name": "Jayasri",
+      "stressLevel": "Low",
+      "goal": "Stress Relief",
+      "interests": [],
+      "joined": "2026-03-07T19:31:35.730Z",
+      "bio": "Exploring the internal narrative.",
+      "id": "1772911895752"
+    }
+  ]
 }

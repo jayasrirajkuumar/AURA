@@ -25,9 +25,11 @@ import MoodAnalytics from './pages/MoodAnalytics';
 import SleepQuality from './pages/SleepQuality';
 import BreathingExercise from './pages/BreathingExercise';
 import MusicRecommendations from './pages/MusicRecommendations';
+import MoodTrackerPage from './pages/MoodTracker';
 import Auth from './pages/Auth';
 import Profile from './pages/Profile';
 import Settings from './pages/Settings';
+import Notifications from './pages/Notifications';
 
 function App() {
   const navigate = useNavigate();
@@ -90,7 +92,7 @@ function App() {
             icon={Heart}
             label="Mood Tracker"
             active={location.pathname === '/mood-tracker'}
-            onClick={() => navigate('/')} // Redirect to dashboard where the tracker is
+            onClick={() => navigate('/mood-tracker')}
           />
           <SidebarItem
             icon={BarChart3}
@@ -115,6 +117,12 @@ function App() {
             label="Music Therapy"
             active={location.pathname === '/music'}
             onClick={() => navigate('/music')}
+          />
+          <SidebarItem
+            icon={Bell}
+            label="Notifications"
+            active={location.pathname === '/notifications'}
+            onClick={() => navigate('/notifications')}
           />
         </nav>
 
@@ -157,7 +165,10 @@ function App() {
               <span className="w-2 h-2 rounded-full bg-brand-sage animate-pulse"></span>
               Live Support
             </div>
-            <button className="p-2.5 bg-white rounded-full border border-brand-grey/50 text-brand-brown/60 hover:bg-brand-off-white transition-colors relative">
+            <button
+              onClick={() => navigate('/notifications')}
+              className="p-2.5 bg-white rounded-full border border-brand-grey/50 text-brand-brown/60 hover:bg-brand-off-white transition-colors relative"
+            >
               <Bell size={20} />
               <span className="absolute top-2.5 right-2.5 w-2 h-2 bg-brand-peach rounded-full border-2 border-white"></span>
             </button>
@@ -176,11 +187,13 @@ function App() {
         <Routes>
           <Route path="/" element={<Dashboard />} />
           <Route path="/conversations" element={<Conversations />} />
+          <Route path="/mood-tracker" element={<MoodTrackerPage />} />
           <Route path="/mood-analytics" element={<MoodAnalytics />} />
           <Route path="/sleep-quality" element={<SleepQuality />} />
           <Route path="/breathing" element={<BreathingExercise />} />
           <Route path="/music" element={<MusicRecommendations />} />
           <Route path="/profile" element={<Profile />} />
+          <Route path="/notifications" element={<Notifications />} />
           <Route path="/settings" element={<Settings />} />
         </Routes>
       </main>

@@ -5,8 +5,11 @@ const router = express.Router();
 
 // GET mood history
 router.get("/history", async (req, res) => {
+    const userId = req.headers["x-user-id"];
+    if (!userId) return res.status(401).json({ error: "User ID missing" });
+
     try {
-        const history = await getMoods();
+        const history = await getMoods(userId);
         res.json(history);
     } catch (error) {
         console.error("Mood History Fetch Error:", error);
@@ -16,6 +19,9 @@ router.get("/history", async (req, res) => {
 
 // POST new mood log
 router.post("/", async (req, res) => {
+    const userId = req.headers["x-user-id"];
+    if (!userId) return res.status(401).json({ error: "User ID missing" });
+
     const { mood, note } = req.body;
 
     if (!mood) {
@@ -23,7 +29,7 @@ router.post("/", async (req, res) => {
     }
 
     try {
-        await addMood({ mood, note });
+        await addMood(userId, { mood, note });
         res.json({ success: true, message: "Mood logged successfully" });
     } catch (error) {
         console.error("Mood Log Error:", error);

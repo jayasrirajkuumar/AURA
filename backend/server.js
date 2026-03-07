@@ -5,6 +5,8 @@ import chatRoutes from "./routes/chat.js";
 import moodRoutes from "./routes/mood.js";
 import sleepRoutes from "./routes/sleep.js";
 import insightRoutes from "./routes/insights.js";
+import userRoutes from "./routes/user.js";
+import notificationRoutes from "./routes/notifications.js";
 import { initDB } from "./db/db.js";
 
 dotenv.config();
@@ -23,6 +25,8 @@ app.use("/api/chat", chatRoutes);
 app.use("/api/mood", moodRoutes);
 app.use("/api/sleep", sleepRoutes);
 app.use("/api/insights", insightRoutes);
+app.use("/api/user", userRoutes);
+app.use("/api/notifications", notificationRoutes);
 
 app.get("/health", (req, res) => {
     res.json({ status: "ok" });

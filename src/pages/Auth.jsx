@@ -1,14 +1,29 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Brain, ArrowRight, Mail, Lock, User, Sparkles, Heart, Target } from 'lucide-react';
+import { Brain, ArrowRight, Mail, Lock, User, Sparkles, Heart, Target, Eye, EyeOff } from 'lucide-react';
 import { useAuth } from '../hooks/AuthContext';
 import { useNavigate } from 'react-router-dom';
 
 const Auth = () => {
     const [isLogin, setIsLogin] = useState(true);
     const [step, setStep] = useState(1);
-    const { login, signup, registeredUsers } = useAuth();
+    const [error, setError] = useState('');
+    const [showPassword, setShowPassword] = useState(false);
+    const { login, signup } = useAuth();
     const navigate = useNavigate();
+
+    const getPasswordStrength = (pass) => {
+        if (!pass) return { score: 0, label: '', color: 'bg-gray-200' };
+        let score = 0;
+        if (pass.length > 8) score++;
+        if (/[A-Z]/.test(pass)) score++;
+        if (/[0-9]/.test(pass)) score++;
+        if (/[^A-Za-z0-9]/.test(pass)) score++;
+
+        if (score < 2) return { score: 1, label: 'Weak', color: 'bg-red-400' };
+        if (score < 4) return { score: 2, label: 'Medium', color: 'bg-yellow-400' };
+        return { score: 3, label: 'Strong', color: 'bg-brand-sage' };
+    };
 
     const [formData, setFormData] = useState({
         email: '',
@@ -19,27 +34,33 @@ const Auth = () => {
         interests: []
     });
 
-    const handleAction = (e) => {
+    const strength = getPasswordStrength(formData.password);
+
+    const handleAction = async (e) => {
         e.preventDefault();
+        setError('');
+
         if (isLogin) {
-            // Find existing user by email
-            const existingUser = registeredUsers.find(u => u.email.toLowerCase() === formData.email.toLowerCase());
-
-            const userData = existingUser || {
-                name: 'USER',
-                email: formData.email,
-                joined: new Date().toISOString(),
-                bio: 'A human seeking clarity.'
-            };
-
-            login(userData);
-            navigate('/');
+            const result = await login({ email: formData.email, password: formData.password });
+            if (result.success) {
+                navigate('/');
+            } else {
+                setError(result.message);
+            }
         } else {
             if (step < 2) {
                 setStep(2);
             } else {
-                signup({ ...formData, joined: new Date().toISOString(), bio: 'Exploring the internal narrative.' });
-                navigate('/');
+                const result = await signup({
+                    ...formData,
+                    joined: new Date().toISOString(),
+                    bio: 'Exploring the internal narrative.'
+                });
+                if (result.success) {
+                    navigate('/');
+                } else {
+                    setError(result.message);
+                }
             }
         }
     };
@@ -66,6 +87,13 @@ const Auth = () => {
                         {isLogin ? 'Welcome Back' : 'Join the Narrative'}
                     </p>
                 </div>
+
+                {error && (
+                    <div className="mb-6 p-4 bg-red-50 text-red-500 text-xs font-bold rounded-2xl border border-red-100 flex items-center gap-2">
+                        <Sparkles size={14} className="flex-shrink-0" />
+                        {error}
+                    </div>
+                )}
 
                 <form onSubmit={handleAction} className="space-y-6">
                     <AnimatePresence mode="wait">
@@ -101,17 +129,44 @@ const Auth = () => {
                                         onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                                     />
                                 </div>
-                                <div className="relative">
-                                    <Lock className="absolute left-4 top-1/2 -translate-y-1/2 text-brand-brown/30" size={18} />
+                                <div className="relative group">
+                                    <Lock className="absolute left-4 top-1/2 -translate-y-1/2 text-brand-brown/30 group-focus-within:text-brand-sage transition-colors" size={18} />
                                     <input
-                                        type="password"
+                                        type={showPassword ? "text" : "password"}
                                         placeholder="Password"
                                         required
                                         className="w-full bg-white border border-brand-grey/30 px-12 py-4 rounded-2xl outline-none focus:ring-2 focus:ring-brand-sage/20 transition-all font-medium text-brand-brown placeholder:text-brand-brown/20"
                                         value={formData.password}
                                         onChange={(e) => setFormData({ ...formData, password: e.target.value })}
                                     />
+                                    <button
+                                        type="button"
+                                        onClick={() => setShowPassword(!showPassword)}
+                                        className="absolute right-4 top-1/2 -translate-y-1/2 text-brand-brown/30 hover:text-brand-sage transition-colors"
+                                    >
+                                        {showPassword ? <EyeOff size={18} /> : <Eye size={18} />}
+                                    </button>
                                 </div>
+
+                                {!isLogin && formData.password && (
+                                    <motion.div
+                                        initial={{ opacity: 0, height: 0 }}
+                                        animate={{ opacity: 1, height: 'auto' }}
+                                        className="space-y-2 px-1"
+                                    >
+                                        <div className="flex justify-between items-center text-[10px] font-black uppercase tracking-widest">
+                                            <span className="text-brand-brown/40">Password Strength</span>
+                                            <span className={strength.label === 'Strong' ? 'text-brand-sage' : strength.label === 'Medium' ? 'text-yellow-500' : 'text-red-400'}>
+                                                {strength.label}
+                                            </span>
+                                        </div>
+                                        <div className="h-1 w-full bg-brand-grey/20 rounded-full overflow-hidden flex gap-1">
+                                            <div className={`h-full transition-all duration-500 ${strength.color} ${strength.score >= 1 ? 'flex-1' : 'w-0'}`}></div>
+                                            <div className={`h-full transition-all duration-500 ${strength.color} ${strength.score >= 2 ? 'flex-1' : 'w-0'}`}></div>
+                                            <div className={`h-full transition-all duration-500 ${strength.color} ${strength.score >= 3 ? 'flex-1' : 'w-0'}`}></div>
+                                        </div>
+                                    </motion.div>
+                                )}
                             </motion.div>
                         ) : (
                             <motion.div

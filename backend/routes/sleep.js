@@ -5,8 +5,11 @@ const router = express.Router();
 
 // GET sleep history
 router.get("/history", async (req, res) => {
+    const userId = req.headers["x-user-id"];
+    if (!userId) return res.status(401).json({ error: "User ID missing" });
+
     try {
-        const history = await getSleepLogs();
+        const history = await getSleepLogs(userId);
         res.json(history);
     } catch (error) {
         console.error("Sleep History Fetch Error:", error);
@@ -16,6 +19,9 @@ router.get("/history", async (req, res) => {
 
 // POST new sleep log
 router.post("/", async (req, res) => {
+    const userId = req.headers["x-user-id"];
+    if (!userId) return res.status(401).json({ error: "User ID missing" });
+
     const { hours, quality } = req.body;
 
     if (hours === undefined || !quality) {
@@ -23,7 +29,7 @@ router.post("/", async (req, res) => {
     }
 
     try {
-        await addSleepLog({ hours, quality });
+        await addSleepLog(userId, { hours, quality });
         res.json({ success: true, message: "Sleep logged successfully" });
     } catch (error) {
         console.error("Sleep Log Error:", error);

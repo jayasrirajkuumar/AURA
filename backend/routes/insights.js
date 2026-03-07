@@ -6,11 +6,14 @@ import { generateInsight } from "../services/huggingFaceService.js";
 const router = express.Router();
 
 router.get("/summary", async (req, res) => {
-    try {
-        const moods = await getMoods();
-        const sleep = await getSleepLogs();
+    const userId = req.headers["x-user-id"];
+    if (!userId) return res.status(401).json({ error: "User ID missing" });
 
-        // Take last 7 days of data
+    try {
+        const moods = await getMoods(userId);
+        const sleep = await getSleepLogs(userId);
+
+        // Take last 7 entries for current user
         const recentMoods = moods.slice(-7).map(m => `${m.mood} (${m.activities?.join(', ') || 'no activities'})`).join("; ");
         const recentSleep = sleep.slice(-7).map(s => `${s.hours}h (${s.quality})`).join("; ");
 

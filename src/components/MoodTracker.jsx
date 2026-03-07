@@ -51,24 +51,24 @@ const MoodTracker = ({ onMoodLogged }) => {
     };
 
     return (
-        <div className="bg-white/60 backdrop-blur-md rounded-3xl p-8 border border-brand-grey/20 shadow-sm">
-            <h2 className="text-xl font-bold text-brand-brown mb-2">How are you feeling today?</h2>
-            <p className="text-brand-brown/60 text-sm mb-6">Tracking your daily mood helps Aura provide better support.</p>
+        <div className="bg-white/70 backdrop-blur-xl rounded-[2.5rem] p-10 border border-white/40 shadow-premium">
+            <h2 className="text-2xl font-black text-brand-brown mb-2 tracking-tight">How are you feeling today?</h2>
+            <p className="text-brand-brown/70 text-sm mb-8 font-medium">Tracking your daily mood helps Aura provide better support.</p>
 
             {!isLogged ? (
-                <div className="space-y-6">
-                    <div className="flex justify-between items-center gap-2">
+                <div className="space-y-8">
+                    <div className="flex justify-between items-center gap-3">
                         {moods.map((mood) => (
                             <button
                                 key={mood.label}
                                 onClick={() => setSelectedMood(mood)}
-                                className={`flex flex-col items-center p-3 rounded-2xl transition-all duration-300 ${selectedMood?.label === mood.label
-                                    ? `${mood.color} scale-110 shadow-md ring-2 ring-current`
-                                    : 'bg-white/40 hover:bg-white/80 grayscale opacity-60 hover:opacity-100 hover:grayscale-0'
+                                className={`flex flex-col items-center p-4 rounded-3xl transition-all duration-500 ${selectedMood?.label === mood.label
+                                    ? `${mood.color} scale-110 shadow-premium ring-2 ring-current`
+                                    : 'bg-white border border-brand-grey/30 grayscale opacity-40 hover:opacity-100 hover:grayscale-0'
                                     }`}
                             >
-                                <span className="text-3xl mb-1">{mood.emoji}</span>
-                                <span className="text-[10px] font-bold uppercase tracking-wider">{mood.label}</span>
+                                <span className="text-4xl mb-2">{mood.emoji}</span>
+                                <span className="text-[10px] font-black uppercase tracking-widest">{mood.label}</span>
                             </button>
                         ))}
                     </div>
@@ -76,12 +76,13 @@ const MoodTracker = ({ onMoodLogged }) => {
                     <AnimatePresence>
                         {selectedMood && (
                             <motion.div
-                                initial={{ opacity: 0, y: 10 }}
-                                animate={{ opacity: 1, y: 0 }}
-                                className="space-y-4"
+                                initial={{ opacity: 0, height: 0 }}
+                                animate={{ opacity: 1, height: 'auto' }}
+                                exit={{ opacity: 0, height: 0 }}
+                                className="space-y-6 overflow-hidden"
                             >
-                                <div className="space-y-4 pt-2">
-                                    <span className="text-sm font-bold text-brand-brown/60 block">What have you been up to?</span>
+                                <div className="space-y-4 pt-4 border-t border-brand-grey/20">
+                                    <span className="text-xs font-black text-brand-brown/40 uppercase tracking-widest block">What have you been up to?</span>
                                     <div className="flex flex-wrap gap-2">
                                         {activities.map((activity) => {
                                             const active = selectedActivities.includes(activity.id);
@@ -89,12 +90,12 @@ const MoodTracker = ({ onMoodLogged }) => {
                                                 <button
                                                     key={activity.id}
                                                     onClick={() => toggleActivity(activity.id)}
-                                                    className={`px-4 py-2 rounded-full text-xs font-bold transition-all duration-300 flex items-center gap-2 ${active
-                                                        ? 'bg-brand-purple text-white shadow-md'
-                                                        : 'bg-white/40 text-brand-brown/50 hover:bg-white/80'
+                                                    className={`px-5 py-2.5 rounded-full text-xs font-black transition-all duration-300 flex items-center gap-2 border ${active
+                                                        ? 'bg-brand-sage text-white border-brand-sage shadow-soft'
+                                                        : 'bg-white border-brand-grey/30 text-brand-brown/60 hover:bg-brand-grey/10'
                                                         }`}
                                                 >
-                                                    <span>{activity.emoji}</span>
+                                                    <span className="text-base">{activity.emoji}</span>
                                                     {activity.label}
                                                 </button>
                                             );
@@ -102,18 +103,21 @@ const MoodTracker = ({ onMoodLogged }) => {
                                     </div>
                                 </div>
 
-                                <textarea
-                                    placeholder="Any notes on why you're feeling this way? (Optional)"
-                                    value={note}
-                                    onChange={(e) => setNote(e.target.value)}
-                                    className="w-full h-24 p-4 bg-white/40 border border-brand-grey/20 rounded-2xl focus:outline-none focus:ring-2 focus:ring-brand-purple/30 resize-none text-sm text-brand-brown"
-                                />
+                                <div className="space-y-3">
+                                    <span className="text-xs font-black text-brand-brown/40 uppercase tracking-widest block">Daily Note</span>
+                                    <textarea
+                                        placeholder="Any notes on why you're feeling this way? (Optional)"
+                                        value={note}
+                                        onChange={(e) => setNote(e.target.value)}
+                                        className="w-full h-32 p-5 bg-white border border-brand-grey/30 rounded-3xl focus:outline-none focus:ring-4 focus:ring-brand-sage/10 transition-all resize-none text-sm text-brand-brown font-medium placeholder:text-brand-brown/20"
+                                    />
+                                </div>
                                 <button
                                     onClick={handleSubmit}
                                     disabled={isSubmitting}
-                                    className="w-full py-4 bg-brand-purple text-white rounded-2xl font-bold text-sm shadow-lg shadow-brand-purple/20 hover:bg-brand-purple/90 transition-all active:scale-[0.98] disabled:opacity-50"
+                                    className="w-full py-5 bg-brand-brown text-white rounded-[2rem] font-black text-sm tracking-widest uppercase shadow-premium hover:scale-[1.02] active:scale-95 transition-all disabled:opacity-50"
                                 >
-                                    {isSubmitting ? 'Logging...' : 'Log Daily Mood'}
+                                    {isSubmitting ? 'Syncing...' : 'Log My Narrative'}
                                 </button>
                             </motion.div>
                         )}
@@ -123,15 +127,15 @@ const MoodTracker = ({ onMoodLogged }) => {
                 <motion.div
                     initial={{ scale: 0.9, opacity: 0 }}
                     animate={{ scale: 1, opacity: 1 }}
-                    className="py-10 text-center"
+                    className="py-16 text-center"
                 >
-                    <div className="inline-flex items-center justify-center w-16 h-16 bg-green-100 text-green-600 rounded-full mb-4">
-                        <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <div className="inline-flex items-center justify-center w-20 h-20 bg-brand-sage/10 text-brand-sage rounded-full mb-6 border-4 border-white shadow-soft">
+                        <svg className="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M5 13l4 4L19 7" />
                         </svg>
                     </div>
-                    <h3 className="text-lg font-bold text-brand-brown">Mood logged for today!</h3>
-                    <p className="text-sm text-brand-brown/60">Come back tomorrow to keep your streak going.</p>
+                    <h3 className="text-2xl font-black text-brand-brown tracking-tight">Narrative Logged.</h3>
+                    <p className="text-brand-brown/60 text-sm font-medium mt-2">Come back tomorrow to continue your reflection.</p>
                 </motion.div>
             )}
         </div>

@@ -5,7 +5,8 @@ import {
     Calendar as CalendarIcon,
     Smile,
     Moon,
-    Wind
+    Wind,
+    Coffee
 } from 'lucide-react';
 import { motion } from 'framer-motion';
 import {

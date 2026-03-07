@@ -14,6 +14,7 @@ const Conversations = () => {
         }
     ]);
     const [loading, setLoading] = useState(false);
+    const [showClearModal, setShowClearModal] = useState(false);
     const messagesEndRef = useRef(null);
 
     const scrollToBottom = () => {
@@ -77,6 +78,22 @@ const Conversations = () => {
         }
     };
 
+    const handleClearChat = async () => {
+        try {
+            await axios.delete('http://localhost:5000/api/chat/history');
+            setMessages([
+                {
+                    role: 'assistant',
+                    content: "History cleared. How can I help you starting fresh?",
+                    timestamp: new Date()
+                }
+            ]);
+            setShowClearModal(false);
+        } catch (error) {
+            console.error("Failed to clear chat:", error);
+        }
+    };
+
     return (
         <div className="flex-1 flex flex-col h-full overflow-hidden bg-brand-cream/30">
             {/* Chat Header */}
@@ -85,9 +102,17 @@ const Conversations = () => {
                     <h1 className="text-xl font-bold text-brand-brown">Cognitive Companion</h1>
                     <p className="text-xs text-brand-brown/50 font-medium">Personalized support for your internal narrative</p>
                 </div>
-                <div className="flex items-center gap-2 px-3 py-1.5 bg-brand-lavender/10 border border-brand-lavender/30 rounded-full">
-                    <div className="w-1.5 h-1.5 rounded-full bg-brand-purple animate-pulse"></div>
-                    <span className="text-[10px] font-black text-brand-purple uppercase tracking-widest">Supports 50+ Languages</span>
+                <div className="flex items-center gap-4">
+                    <button
+                        onClick={() => setShowClearModal(true)}
+                        className="text-[10px] font-black uppercase tracking-widest text-brand-brown/40 hover:text-red-500 transition-colors"
+                    >
+                        Clear Chat
+                    </button>
+                    <div className="flex items-center gap-2 px-3 py-1.5 bg-brand-lavender/10 border border-brand-lavender/30 rounded-full">
+                        <div className="w-1.5 h-1.5 rounded-full bg-brand-purple animate-pulse"></div>
+                        <span className="text-[10px] font-black text-brand-purple uppercase tracking-widest">Supports 50+ Languages</span>
+                    </div>
                 </div>
             </div>
 
@@ -109,10 +134,50 @@ const Conversations = () => {
                 </div>
             </div>
 
-            {/* Input Area */}
             <div className="flex-shrink-0 border-t border-brand-grey/20 bg-white/20">
                 <ChatInput onSendMessage={handleSendMessage} disabled={loading} />
             </div>
+
+            {/* Modal Overlay */}
+            <AnimatePresence>
+                {showClearModal && (
+                    <motion.div
+                        initial={{ opacity: 0 }}
+                        animate={{ opacity: 1 }}
+                        exit={{ opacity: 0 }}
+                        className="fixed inset-0 z-[100] flex items-center justify-center p-6 bg-brand-brown/20 backdrop-blur-sm"
+                    >
+                        <motion.div
+                            initial={{ scale: 0.9, opacity: 0, y: 20 }}
+                            animate={{ scale: 1, opacity: 1, y: 0 }}
+                            exit={{ scale: 0.9, opacity: 0, y: 20 }}
+                            className="bg-white rounded-[2.5rem] p-10 max-w-sm w-full shadow-premium border border-brand-grey/20 text-center"
+                        >
+                            <div className="w-16 h-16 bg-red-50 text-red-500 rounded-2xl flex items-center justify-center mx-auto mb-6">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M3 6h18" /><path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6" /><path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2" /><line x1="10" y1="11" x2="10" y2="17" /><line x1="14" y1="11" x2="14" y2="17" /></svg>
+                            </div>
+                            <h3 className="text-xl font-black text-brand-brown mb-2 tracking-tight">Clear Chat History?</h3>
+                            <p className="text-sm text-brand-brown/60 mb-8 font-medium leading-relaxed">
+                                This action cannot be undone. All your messages with Aura on this account will be permanently removed.
+                            </p>
+                            <div className="flex flex-col gap-3">
+                                <button
+                                    onClick={handleClearChat}
+                                    className="w-full py-4 bg-red-500 text-white rounded-2xl font-black text-xs uppercase tracking-widest shadow-lg shadow-red-200 hover:bg-red-600 transition-all active:scale-[0.98]"
+                                >
+                                    Confirm Deletion
+                                </button>
+                                <button
+                                    onClick={() => setShowClearModal(false)}
+                                    className="w-full py-4 bg-brand-grey/20 text-brand-brown rounded-2xl font-black text-xs uppercase tracking-widest hover:bg-brand-grey/30 transition-all active:scale-[0.98]"
+                                >
+                                    Cancel
+                                </button>
+                            </div>
+                        </motion.div>
+                    </motion.div>
+                )}
+            </AnimatePresence>
         </div>
     );
 };
